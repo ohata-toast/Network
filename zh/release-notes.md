@@ -19,10 +19,9 @@
 
 #### 기능 추가
 
-##### Network ACL (한국 평촌 리전)
+##### Network ACL
 
-* Network ACL 기능이 추가되었습니다.
-* ACL 기능을 이용해 프로토콜, IP, 포트별로 접근을 제어할 수 있습니다.
+* [한국 평촌 리전] Network ACL 기능이 추가되었습니다. ACL 기능을 이용해 프로토콜, IP, 포트별로 접근을 제어할 수 있습니다.
 
 ##### Load Balancer
 
