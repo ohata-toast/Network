@@ -1,5 +1,13 @@
 ## Network > Release Notes
 
+### 2021. 03. 18.
+
+#### 기능 추가
+
+##### NAT 게이트웨이
+
+* [한국 평촌 리전] NAT 게이트웨이 기능이 추가되었습니다.
+
 ### November 24, 2020
 
 #### Feature Updates
