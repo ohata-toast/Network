@@ -1,18 +1,18 @@
 ## Network > Release Notes
 
-### 2021. 03. 23.
+### March 23, 2021
 
-#### 기능 추가
+#### More Features
 
-##### NAT 게이트웨이
+##### NAT Gateway
 
-* [한국 평촌 리전] NAT 게이트웨이 기능이 추가되었습니다.
+* [Pyeongchon region, Korea] Added the NAT Gateway feature.
 
 ##### Load Balancer
 
-* [한국/일본/미국 리전] 유효하지 않은 요청 차단 기능이 추가되었습니다.
-* [한국/일본/미국 리전] 새로 생성되는 로드밸런서의 연결 제한 수치가 60,000 개로 고정됩니다. 사용중인 로드밸런서의 설정을 변경하면 60,000 개의 연결 제한 수치를 갖도록 변경됩니다.
-* [한국 평촌 리전] 물리 로드밸런서를 온라인으로 생성할 수 있습니다. 기존 로드밸런서 대비 변경사항은 [로드밸런서가이드](https://docs.toast.com/ko/Network/Load%20Balancer/ko/console-guide/#_19)를 참고해 주세요.
+* [Korea/Japan/United States] Added the Block Invalid Request feature.
+* [Korea/Japan/United States] The number of newly created load balancers is limited to 60,000 connections. If the setting for the load balancer in use is changed, it will be changed to have the limit of 60,000 connections.
+* [Pyeongchon region, Korea] Physical load balancers can be created online. To learn more about the changes from the previous load balancers, see [Load Balancer Guide](https://docs.toast.com/ko/Network/Load Balancer/ko/console-guide/#_19).
 
 ### November 24, 2020
 
@@ -23,27 +23,27 @@
 
 ### September 22, 2020
 
-#### 기능 개선
+#### Feature Updates
 
 ##### DNS Plus
 
-* 레코드 세트 수정 시 레코드 세트 타입 수정이 가능하도록 개선되었습니다.
+* Improved the application to enable the editing of the record set type when editing a record set.
 
 ### August 25, 2020
 
-#### 기능 추가
+#### More Features
 
 ##### Network ACL
 
-* [한국 평촌 리전] Network ACL 기능이 추가되었습니다. ACL 기능을 이용해 프로토콜, IP, 포트별로 접근을 제어할 수 있습니다.
+* [Pyeongchon region, Korea] Network ACL function added. Using the ACL function, you can control the access per protocol, IP, and port.
 
 ### June 23, 2020
 
-#### 기능 변경
+#### Features Updates
 
 ##### VPC
-* [한국/일본/미국 리전] 라우팅 테이블의 라우트 생성 창에서 게이트웨이 항목에 IP를 직접 입력하는 방식을 IP를 소유한 장치를 선택하는 방식으로 변경했습니다. 라우팅 테이블에 명시적으로 연결하지 않은 서브넷의 장치도 선택할 수 있습니다.
-* [한국/일본/미국 리전] 인터넷 게이트웨이 목록에서 IP 정보 대신 연결된 라우팅 테이블의 정보를 표시하도록 변경했습니다. 라우팅 테이블의 라우트 탭에서도 연결된 인터넷 게이트웨이의 이름이 표시됩니다.
+* [Korea/Japan/United States] Changed the way to enter the IP of a gateway from manually typing in the address to selecting the device owning the IP from the Create Route window of a routing table. The devices that are not explicitly associated with a routing table in the subnet can also be selected.
+* [Korea/Japan/United States] Changed the Internet gateway list to display the information of the associated routing table instead of the IP information. The name of the associated Internet gateway is also displayed in the Route tab of a routing table.
 
 ### May 26, 2020
 #### Feature Updates
@@ -54,9 +54,9 @@
 
 ##### Load Balancer
 
-* 로드 밸런서와 동일한 VPC에 속한 다른 서브넷의 인스턴스를 로드 밸런서의 멤버로 등록할 수 있습니다. 로드 밸런서가 속한 서브넷과 인스턴스의 서브넷이 라우팅 테이블에 연결되어야 합니다.
-* 로드 밸런서가 속한 VPC가 피어링(peering) 연결되어 있다면, 피어 VPC에 속한 인스턴스를 로드 밸런서의 멤버로 등록할 수 있습니다. 피어 VPC의 기본 라우팅 테이블에 연결된 서브넷의 인스턴스만 연결할 수 있습니다.
-* 로드 밸런서에 여러 리스너를 운용하는 경우 모든 리스너에 동일한 멤버 인스턴스를 구성해야 했었는데, 이제는 리스너별 멤버 인스턴스를 서로 다르게 설정할 수 있습니다.
+* The instance of a different subnet that belongs to the same VPC as Load Balancer can be registered as a member of Load Balancer. The subnet to which Load Balancer belongs and the subnet of the instance need to be connected to the routing table.
+* The instance that belongs to a peer VPC can be registered as a member of Load Balancer if the VPC to which Load Balancer belongs has a peering connection. Only the instances of the subnet connected to the default routing table of the peer VPC can be connected.
+* Now, the member instance of each listener can be configured differently. Previously, all the listeners needed to have the same member instance when running multiple listeners in Load Balancer.
 * Released Public API v2, which is compatible with Openstack API. 
 
 ### March 24, 2020
