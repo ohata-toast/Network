@@ -11,8 +11,7 @@
 ##### Load Balancer
 
 * [Korea/Japan/United States] Added the Block Invalid Request feature.
-* [Korea/Japan/United States] The number of newly created load balancers is limited to 60,000 connections. If the setting for the load balancer in use is changed, it will be changed to have the limit of 60,000 connections.
-* [Pyeongchon region, Korea] Physical load balancers can be created online. To learn more about the changes from the previous load balancers, see [Load Balancer Guide](https://docs.toast.com/ko/Network/Load Balancer/ko/console-guide/#_19).
+* [Korea/Japan/United States regions] The default connection limit of newly created load balancers is changed from 2,000 to 60,000.
 
 ### November 24, 2020
 
