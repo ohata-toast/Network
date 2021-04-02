@@ -1,5 +1,13 @@
 ## Network > Release Notes
 
+### April 27, 2021
+
+#### More Features
+
+##### Load Balancer
+
+* [Pyeongchon region, Korea] Physical load balancers can be created online. To learn more about the changes from the previous load balancers, see [Load Balancer Guide](https://docs.toast.com/ko/Network/Load Balancer/ko/console-guide/#_19).
+
 ### March 23, 2021
 
 #### More Features

@@ -8,6 +8,10 @@
 
 * [한국 평촌 리전] NAT 인스턴스 기능이 추가되었습니다.
 
+##### Load Balancer
+
+* [한국 평촌 리전] 물리 로드밸런서를 온라인으로 생성할 수 있습니다. 기존 로드밸런서 대비 변경사항은 [로드밸런서가이드](https://docs.toast.com/ko/Network/Load%20Balancer/ko/console-guide/#_19)를 참고해 주세요.
+
 
 ### 2021. 03. 23.
 
