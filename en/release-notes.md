@@ -4,6 +4,10 @@
 
 #### More Features
 
+##### NAT instance
+
+* [Pyeongchon region, Korea] Added the NAT Instance feature.
+
 ##### Load Balancer
 
 * [Pyeongchon region, Korea] Physical load balancers can be created online. To learn more about the changes from the previous load balancers, see [Load Balancer Guide](https://docs.toast.com/ko/Network/Load Balancer/ko/console-guide/#_19).
