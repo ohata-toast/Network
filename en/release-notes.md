@@ -1,5 +1,17 @@
 ## Network > Release Notes
 
+### April 27, 2021
+
+#### More Features
+
+##### NAT instance
+
+* [Pyeongchon region, Korea] Added the NAT Instance feature.
+
+##### Load Balancer
+
+* [Pyeongchon region, Korea] Physical load balancers can be created online. To learn more about the changes from the previous load balancers, see [Load Balancer Guide](https://docs.toast.com/en/Network/Load%20Balancer/en/console-guide/#difference-between-physical-load-balancers-and-regular-load-balancer).
+
 ### March 23, 2021
 
 #### More Features
