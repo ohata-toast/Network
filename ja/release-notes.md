@@ -10,7 +10,7 @@
 
 ##### Load Balancer
 
-* [韓国坪村リージョン]物理ロードバランサーをオンラインで作成できます。既存のロードバランサーからの変更事項は[ロードバランサーガイド](https://docs.toast.com/ko/Network/Load%20Balancer/ko/console-guide/#_19)を参照してください。
+* [韓国坪村リージョン]物理ロードバランサーをオンラインで作成できます。既存のロードバランサーからの変更事項は[ロードバランサーガイド](https://docs.toast.com/ja/Network/Load%20Balancer/ja/console-guide/#_17)を参照してください。
 
 ### 2021. 03. 23.
 
