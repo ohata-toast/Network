@@ -1,5 +1,14 @@
 ## Network > Release Notes
 
+### Augst 24, 2021
+
+#### More Features
+
+##### DNS Plus
+
+* Added the Create multiple record sets feature.
+
+
 ### April 27, 2021
 
 #### More Features
