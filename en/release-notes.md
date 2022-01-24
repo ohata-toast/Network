@@ -1,8 +1,28 @@
 ## Network > Release Notes
 
-### Augst 24, 2021
+### January 18, 2022
 
-#### More Features
+#### Added Features
+
+##### VPC
+
+* Added the static route configuration feature to subnets. You can configure static routes to forward via DHCP to instances within a subnet.
+* Added the feature to create and change a "centralized virtual routing table".
+
+##### Network Interface
+
+* Added the feature to create virtual IP for redundancy. You can preempt an IP to use as a virtual IP, and add a route to the IP in the routing table.
+* Added the feature to disable network interface security settings so that the instance can be used as a gateway, firewall, etc.
+
+#### Feature Updates
+
+##### Load Balancer
+
+* Enhanced to use TLS version 1.3 with load balancers that use the TERMINATED_HTTPS protocol.
+
+### August 24, 2021
+
+#### Added Features
 
 ##### DNS Plus
 
@@ -11,7 +31,7 @@
 
 ### April 27, 2021
 
-#### More Features
+#### Added Features
 
 ##### NAT instance
 
@@ -23,7 +43,7 @@
 
 ### March 23, 2021
 
-#### More Features
+#### Added Features
 
 ##### NAT Gateway
 
@@ -34,7 +54,7 @@
 * [Korea/Japan/United States] Added the Block Invalid Request feature.
 * [Korea/Japan/United States regions] The default connection limit of newly created load balancers is changed from 2,000 to 60,000.
 
-### February 9, 2021
+### February 6, 2021
 
 #### Feature Updates
 
@@ -60,11 +80,15 @@
 
 ### August 25, 2020
 
-#### More Features
+#### Added Features
 
 ##### Network ACL
 
 * [Pyeongchon region, Korea] Network ACL function added. Using the ACL function, you can control the access per protocol, IP, and port.
+
+##### Load Balancer
+
+* Public API v2 supports IP access control function. For details, refer to [Load Balancer API Guide](https://docs.toast.com/en/Network/Load%20Balancer/en/public-api/#ip-acl).
 
 ### June 23, 2020
 
@@ -79,14 +103,14 @@
 
 ##### VPC
 
-* Released Public API v2, which is compatible with Openstack API.  
+* Released Public API v2, which is compatible with OpenStack API.  
 
 ##### Load Balancer
 
 * The instance of a different subnet that belongs to the same VPC as Load Balancer can be registered as a member of Load Balancer. The subnet to which Load Balancer belongs and the subnet of the instance need to be connected to the routing table.
 * The instance that belongs to a peer VPC can be registered as a member of Load Balancer if the VPC to which Load Balancer belongs has a peering connection. Only the instances of the subnet connected to the default routing table of the peer VPC can be connected.
 * Now, the member instance of each listener can be configured differently. Previously, all the listeners needed to have the same member instance when running multiple listeners in Load Balancer.
-* Released Public API v2, which is compatible with Openstack API. 
+* Released Public API v2, which is compatible with OpenStack API. 
 
 ### March 24, 2020
 
@@ -107,7 +131,7 @@
 
 ### December 24, 2019
 
-#### More Features
+#### Added Features
 
 ##### DNS Plus
 
@@ -122,12 +146,12 @@
 
 * Updated to select user's GSLB domain for CNAME record set type, for creating/updating the record set.
 
-### December 17. 2019.
+### December 17. 2019
 
 #### Feature Updates
 * [Korea/Japan/US Region] Every network interface connected with an instance can be assosicated with each floating IP.
 
-### October 29, 2019.
+### October 29, 2019
 
 #### Feature Updates
 
@@ -160,7 +184,7 @@
 
 ### May 30, 2019
 
-#### Updates
+#### Feature Updates
 
 ##### Load Balancer
 
@@ -185,7 +209,7 @@
 * IP access control is available.
     * IP-based access control is available at load balancer.
     * For more details on IP access control features, see User Guide.
-    * List of IPs for control has been auto-applied to the IP acces control group named Default.  
+    * List of IPs for control has been auto-applied to the IP access control group named Default.  
 
 ### December 27, 2018
 
@@ -193,7 +217,8 @@
 
 ##### VPC
 
-* Creating a new peering is not going to be provided for the time, due to concerns for packet flooding between peered VPCs. Such concerns, however, are not related to communication between previously created peering, and features are provided as usual, except peering creation.  
+* Creating a new peering is not going to be provided for the time being, due to concerns for packet flooding between peered VPCs.
+	Such concerns, however, are not related to communication between previously created peering, and features are provided as usual, except peering creation.  
 
 ### November 27, 2018
 
@@ -201,7 +226,7 @@
 
 ##### Load Balancer
 
-* Fixed a bug occuring when a listener is added to load balancer, in which, an instance member that is newly added to a deactivate instance is created while activated.   
+* Fixed a bug occurring when a listener is added to load balancer, in which, an instance member that is newly added to a deactivate instance is created while activated.   
 
 #### Feature Updates
 
@@ -220,7 +245,7 @@
 
 ##### Load Balancer
 
-* Fixed an issue in which some listener members still remain afte an instance which is registered as member of load balancer is deleted.  
+* Fixed an issue in which some listener members still remain after an instance which is registered as member of load balancer is deleted.  
 
 #### Feature Updates
 
@@ -261,6 +286,8 @@
 
 * Fixed failed access to load balancer of a peer VPC from instance of a local VPC.
 
+#### Feature Updates
+
 ##### VPC
 
 * You can find information of attached resources on Overview of VPC, Subnet, Routing Table, and Internet Gateway.
@@ -286,7 +313,7 @@
 
 * Fixed failure in getting an IP via DHCP when an instance is attached to a newly added subnet.
 * Fixed an issue in which the same target of a previous routing policy may be entered to add a routing policy.
-* Fixed infrequently failed commuication of an instance associated to a floating IP with an instance located at a different subnet.
+* Fixed infrequently failed communication of an instance associated to a floating IP with an instance located at a different subnet.
 
 ### February 22, 2018
 
@@ -324,7 +351,7 @@
 
 ### September 21, 2017
 
-#### More Features
+#### Added Features
 
 ##### Added Public API
 
