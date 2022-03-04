@@ -1,5 +1,14 @@
 ## Network > Release Notes
 
+### March 29, 2022
+
+#### Added Features
+
+##### VPC
+
+* Added the service gateway feature. You can use the service gateway IP to connect the service selected when creating the service gateway.
+* Added the inter-region peering feature, which allows you to connect two VPCs created in different regions.
+
 ### January 18, 2022
 
 #### Added Features
