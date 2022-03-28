@@ -1,5 +1,16 @@
 ## Network > Release Notes
 
+### March 29, 2022
+
+#### Added Features
+
+##### VPC
+
+* Added the service gateway feature. You can use the service gateway IP to connect to the service selected when creating the service gateway.
+    * The service gateway feature is only available in the Korea (Pyeongchon) region and the Korea (Pangyo) region.
+* Added the inter-region peering feature, which allows you to connect two VPCs created in different regions.
+    * Inter-region peering is only available in the Korea (Pyeongchon) region and the Korea (Pangyo) region.
+
 ### January 18, 2022
 
 #### Added Features
