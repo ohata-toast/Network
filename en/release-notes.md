@@ -1,5 +1,14 @@
 ## Network > Release Notes
 
+### May 24, 2022
+
+#### Added Features
+
+##### Peering Gateway
+
+* Added the project peering feature, which allows you to connect two VPCs created in the same region but in different projects.
+    * Project peering is only available in the Korea (Pyeongchon) region and the Korea (Pangyo) region.
+
 ### March 29, 2022
 
 #### Added Features
