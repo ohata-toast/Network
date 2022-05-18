@@ -1,5 +1,23 @@
 ## Network > Release Notes
 
+### May 24, 2022
+
+#### Added Features
+
+##### Peering Gateway
+
+* Added the project peering feature, which allows you to connect two VPCs created in the same region but in different projects.
+    * Project peering is only available in the Korea (Pyeongchon) region and the Korea (Pangyo) region.
+
+##### VPN Gateway
+
+* [Pyeongchon region, Korea] Added the VPN Gateway feature.
+
+##### NAT Gateway
+
+* [Pangyo region, Korea] Added the NAT Gateway feature.
+
+
 ### March 29, 2022
 
 #### Added Features
@@ -114,14 +132,14 @@
 
 ##### VPC
 
-* Released Public API v2, which is compatible with OpenStack API.  
+* Released Public API v2, which is compatible with OpenStack API.
 
 ##### Load Balancer
 
 * The instance of a different subnet that belongs to the same VPC as Load Balancer can be registered as a member of Load Balancer. The subnet to which Load Balancer belongs and the subnet of the instance need to be connected to the routing table.
 * The instance that belongs to a peer VPC can be registered as a member of Load Balancer if the VPC to which Load Balancer belongs has a peering connection. Only the instances of the subnet connected to the default routing table of the peer VPC can be connected.
 * Now, the member instance of each listener can be configured differently. Previously, all the listeners needed to have the same member instance when running multiple listeners in Load Balancer.
-* Released Public API v2, which is compatible with OpenStack API. 
+* Released Public API v2, which is compatible with OpenStack API.
 
 ### March 24, 2020
 
@@ -220,7 +238,7 @@
 * IP access control is available.
     * IP-based access control is available at load balancer.
     * For more details on IP access control features, see User Guide.
-    * List of IPs for control has been auto-applied to the IP access control group named Default.  
+    * List of IPs for control has been auto-applied to the IP access control group named Default.
 
 ### December 27, 2018
 
@@ -229,7 +247,7 @@
 ##### VPC
 
 * Creating a new peering is not going to be provided for the time being, due to concerns for packet flooding between peered VPCs.
-	Such concerns, however, are not related to communication between previously created peering, and features are provided as usual, except peering creation.  
+	Such concerns, however, are not related to communication between previously created peering, and features are provided as usual, except peering creation.
 
 ### November 27, 2018
 
@@ -237,7 +255,7 @@
 
 ##### Load Balancer
 
-* Fixed a bug occurring when a listener is added to load balancer, in which, an instance member that is newly added to a deactivate instance is created while activated.   
+* Fixed a bug occurring when a listener is added to load balancer, in which, an instance member that is newly added to a deactivate instance is created while activated.
 
 #### Feature Updates
 
@@ -245,7 +263,7 @@
 
 * Added the statistics feature for load balancing, with the following statistical volume provided on a chart.
     * Session count, Session increase volume of client per second, Session increase volume of instance per second, In/Out traffic volume, Number of exceptions to load balancing
-    * Statistics on deleted load balancers, listeners, or members are not provided.  
+    * Statistics on deleted load balancers, listeners, or members are not provided.
     * Traffic volume does not include L2, L3, and L4 headers.
     * For more details, see User Guide.
 
@@ -256,14 +274,14 @@
 
 ##### Load Balancer
 
-* Fixed an issue in which some listener members still remain after an instance which is registered as member of load balancer is deleted.  
+* Fixed an issue in which some listener members still remain after an instance which is registered as member of load balancer is deleted.
 
 #### Feature Updates
 
 ##### Load Balancer
 
 * Added dedicated load balancer services.
-* Since dedicated load balancer services are created by occupying hardware resources, 1Gbps bandwidth for 48 thousand concurrent sessions are supported.   
+* Since dedicated load balancer services are created by occupying hardware resources, 1Gbps bandwidth for 48 thousand concurrent sessions are supported.
 
 ### August 28, 2018
 
@@ -278,7 +296,7 @@
 ##### VPC
 
 * Updated the maximum available numbers to create subnet, routing table, and route.
-* Check the maximum available numbers to create each resource of VPC from description on the right of the popup.  
+* Check the maximum available numbers to create each resource of VPC from description on the right of the popup.
     * Subnet: Available up to 10 for each VPC.
     * Routing Table: Available up to 10 for each VPC.
     * Route: Available up to 10 for each routing table.
@@ -286,7 +304,7 @@
 ##### Load Balancer
 
 * For TCP or HTTPS protocol, a proxy protocol can be activated to check client IP.
-* Keepalive timeout can be configured for load balancer.  
+* Keepalive timeout can be configured for load balancer.
 
 
 ### April 24, 2018
@@ -342,8 +360,8 @@
 * A port can be created by the subnet and attached to an instance.
 * More routing policies can be added.
 * Added the peering feature for communication between VPCs.
-* Many VPC ports may be added to or deleted from an instance.  
-* For more details, Overview and User Guide of VPC.  
+* Many VPC ports may be added to or deleted from an instance.
+* For more details, Overview and User Guide of VPC.
 
 
 ### November 23, 2017
@@ -372,7 +390,7 @@
 #### Bug Fixes
 
 * Fixed to disallow users without project admin authority to modify security group.
-* Updated not to show the Network menu to users, except authorized admin users of a project.   
+* Updated not to show the Network menu to users, except authorized admin users of a project.
 
 ### August 24, 2017
 
@@ -385,7 +403,7 @@
 
 #### Bug Fixes
 ##### Load Balancer
-* Fixed a bug in which the popup for certificate registration is frequently missing while uploading certificate files to listener.  
+* Fixed a bug in which the popup for certificate registration is frequently missing while uploading certificate files to listener.
 
 
 ### March 23, 2017
