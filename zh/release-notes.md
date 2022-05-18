@@ -1,452 +1,502 @@
-## Network > 릴리스 노트
+## Network > Release Notes
 
-### 2021. 08. 24.
+### May 24, 2022
 
-#### 기능 추가
+#### Added Features
 
-##### DNS Plus
+##### Peering Gateway
 
-* 레코드 세트 대량 생성 기능이 추가되었습니다.
+* Added the project peering feature, which allows you to connect two VPCs created in the same region but in different projects.
+    * Project peering is only available in the Korea (Pyeongchon) region and the Korea (Pangyo) region.
 
+##### VPN Gateway
 
-### 2021. 04. 27.
+* [Pyeongchon region, Korea] Added the VPN Gateway feature.
 
-#### 기능 추가
+##### NAT Gateway
 
-##### NAT 인스턴스
-
-* [한국 평촌 리전] NAT 인스턴스 기능이 추가되었습니다.
-
-##### Load Balancer
-
-* [한국 평촌 리전] 물리 로드밸런서를 온라인으로 생성할 수 있습니다. 기존 로드밸런서 대비 변경사항은 [로드밸런서가이드](https://docs.toast.com/ko/Network/Load%20Balancer/ko/console-guide/#_19)를 참고해 주세요.
+* [Pangyo region, Korea] Added the NAT Gateway feature.
 
 
-### 2021. 03. 23.
+### March 29, 2022
 
-#### 기능 추가
-
-##### NAT 게이트웨이
-
-* [한국 평촌 리전] NAT 게이트웨이 기능이 추가되었습니다.
-
-##### Load Balancer
-
-* [한국/일본/미국 리전] 유효하지 않은 요청 차단 기능이 추가되었습니다.
-* [한국/일본/미국 리전] 새로 생성되는 로드밸런서의 기본 연결 제한 개수가 2,000에서 60,000으로 변경됩니다.
-
-### 2021. 02. 06.
-
-#### 기능 변경
+#### Added Features
 
 ##### VPC
 
-* [한국 판교 리전] 라우팅 테이블의 기본 라우트(VPC 주소 영역 전체로의 로컬 라우트)가 적용되지 않는 문제를 수정했습니다. 기존에는 VPC 내의 서브넷이라도 같은 라우팅 테이블에 연결되어 있는 서브넷 간에만 통신이 가능했지만, 서로 다른 라우팅 테이블에 연결되어 있는 서브넷 간에도 통신이 가능합니다.
+* Added the service gateway feature. You can use the service gateway IP to connect to the service selected when creating the service gateway.
+    * The service gateway feature is only available in the Korea (Pyeongchon) region and the Korea (Pangyo) region.
+* Added the inter-region peering feature, which allows you to connect two VPCs created in different regions.
+    * Inter-region peering is only available in the Korea (Pyeongchon) region and the Korea (Pangyo) region.
 
+### January 18, 2022
 
-### 2020. 11. 24.
+#### Added Features
 
-#### 기능 추가
+##### VPC
 
-#### Network Interface
-* Network Interface 기능이 추가되었습니다.
+* Added the static route configuration feature to subnets. You can configure static routes to forward via DHCP to instances within a subnet.
+* Added the feature to create and change a "centralized virtual routing table".
 
-### 2020. 09. 22.
+##### Network Interface
 
-#### 기능 개선
+* Added the feature to create virtual IP for redundancy. You can preempt an IP to use as a virtual IP, and add a route to the IP in the routing table.
+* Added the feature to disable network interface security settings so that the instance can be used as a gateway, firewall, etc.
+
+#### Feature Updates
+
+##### Load Balancer
+
+* Enhanced to use TLS version 1.3 with load balancers that use the TERMINATED_HTTPS protocol.
+
+### August 24, 2021
+
+#### Added Features
 
 ##### DNS Plus
 
-* 레코드 세트 수정 시 레코드 세트 타입 수정이 가능하도록 개선되었습니다.
+* Added the Create multiple record sets feature.
 
-### 2020. 08. 25.
 
-#### 기능 추가
+### April 27, 2021
+
+#### Added Features
+
+##### NAT instance
+
+* [Pyeongchon region, Korea] Added the NAT Instance feature.
+
+##### Load Balancer
+
+* [Pyeongchon region, Korea] Physical load balancers can be created online. To learn more about the changes from the previous load balancers, see [Load Balancer Guide](https://docs.toast.com/en/Network/Load%20Balancer/en/console-guide/#difference-between-physical-load-balancers-and-regular-load-balancer).
+
+### March 23, 2021
+
+#### Added Features
+
+##### NAT Gateway
+
+* [Pyeongchon region, Korea] Added the NAT Gateway feature.
+
+##### Load Balancer
+
+* [Korea/Japan/United States] Added the Block Invalid Request feature.
+* [Korea/Japan/United States regions] The default connection limit of newly created load balancers is changed from 2,000 to 60,000.
+
+### February 6, 2021
+
+#### Feature Updates
+
+##### VPC
+
+* [Pangyo region, Korea] Fixed the issue where the default route (local route to the whole VPC address area) of routing table is not properly applied. Previously, even subnets within the VPC same could communicate with one another only if they are all connected to the same routing table. Now, communication is possible between subnets connected to different routing tables.
+
+
+### November 24, 2020
+
+#### Feature Updates
+
+#### Network Interface
+* Added Network Interface service.
+
+### September 22, 2020
+
+#### Feature Updates
+
+##### DNS Plus
+
+* Improved the application to enable the editing of the record set type when editing a record set.
+
+### August 25, 2020
+
+#### Added Features
 
 ##### Network ACL
 
-* [한국 평촌 리전] Network ACL 기능이 추가되었습니다. ACL 기능을 이용해 프로토콜, IP, 포트별로 접근을 제어할 수 있습니다.
+* [Pyeongchon region, Korea] Network ACL function added. Using the ACL function, you can control the access per protocol, IP, and port.
 
 ##### Load Balancer
 
-* Public API v2가 IP 접근 제어 기능을 지원합니다. 자세한 사항은 [로드밸런서API가이드](https://docs.toast.com/ko/Network/Load%20Balancer/ko/public-api/#ip-acl)를 참고해 주세요.
+* Public API v2 supports IP access control function. For details, refer to [Load Balancer API Guide](https://docs.toast.com/en/Network/Load%20Balancer/en/public-api/#ip-acl).
 
-### 2020. 06. 23.
+### June 23, 2020
 
-#### 기능 변경
+#### Features Updates
 
 ##### VPC
-* [한국/일본/미국 리전] 라우팅 테이블의 라우트 생성 창에서 게이트웨이 항목에 IP를 직접 입력하는 방식을 IP를 소유한 장치를 선택하는 방식으로 변경했습니다. 라우팅 테이블에 명시적으로 연결하지 않은 서브넷의 장치도 선택할 수 있습니다.
-* [한국/일본/미국 리전] 인터넷 게이트웨이 목록에서 IP 정보 대신 연결된 라우팅 테이블의 정보를 표시하도록 변경했습니다. 라우팅 테이블의 라우트 탭에서도 연결된 인터넷 게이트웨이의 이름이 표시됩니다.
+* [Korea/Japan/United States] Changed the way to enter the IP of a gateway from manually typing in the address to selecting the device owning the IP from the Create Route window of a routing table. The devices that are not explicitly associated with a routing table in the subnet can also be selected.
+* [Korea/Japan/United States] Changed the Internet gateway list to display the information of the associated routing table instead of the IP information. The name of the associated Internet gateway is also displayed in the Route tab of a routing table.
 
-### 2020. 05. 26.
-
-#### 기능 개선
-
-##### VPC
-
-* Public API v2가 출시됩니다. Public API v2는 Openstack API와 호환됩니다.
-
-##### Load Balancer
-
-* 로드 밸런서와 동일한 VPC에 속한 다른 서브넷의 인스턴스를 로드 밸런서의 멤버로 등록할 수 있습니다. 로드 밸런서가 속한 서브넷과 인스턴스의 서브넷이 라우팅 테이블에 연결되어야 합니다.
-* 로드 밸런서가 속한 VPC가 피어링(peering) 연결되어 있다면, 피어 VPC에 속한 인스턴스를 로드 밸런서의 멤버로 등록할 수 있습니다. 피어 VPC의 기본 라우팅 테이블에 연결된 서브넷의 인스턴스만 연결할 수 있습니다.
-* 로드 밸런서에 여러 리스너를 운용하는 경우 모든 리스너에 동일한 멤버 인스턴스를 구성해야 했었는데, 이제는 리스너별 멤버 인스턴스를 서로 다르게 설정할 수 있습니다.
-* Public API v2가 출시됩니다. Public API v2는 Openstack API와 호환됩니다.
-
-### 2020. 03. 24.
-
-#### 기능 개선
-
-##### Load Balancer
-
-* Cert Manager 서비스를 통한 인증서 관리기능이 추가 되었습니다.
-* Cert Manager 서비스에 인증서를 등록하고 리스너에 해당 인증서를 연결하면 이메일로 인증서 만료일 알람을 받을 수 있습니다.
-
-### 2020. 02. 25.
-
-#### 기능 개선
-
-##### Security Groups
-
-* 보안 그룹 규칙에 "설명" 항목이 추가되었습니다. 보안 그룹 규칙별로 설명을 추가할 수 있습니다.
-
-### 2019. 12. 24.
-
-#### 기능 추가
-
-##### DNS Plus
-
-* 엔드포인트 서버의 트래픽을 안정적으로 로드밸런싱 할 수 있는 GSLB(Global Server Load Balancing) 기능이 추가되었습니다.
-* 생성되는 GSLB 도메인은 라우팅 규칙에 따라 DR(Disaster Recovery), 랜덤 로드밸런싱, 전 세계적인 로드밸런싱으로 구성할 수 있습니다.
-* Pool은 라우팅 규칙을 적용할 수 있는 최소 단위로 엔드포인트 서버를 그룹핑하는 요소입니다.
-* 주기적으로 Pool에 포함된 엔드포인트 서버에 헬스 체크를 수행하여 안정적인 서비스를 지원할 수 있습니다. 헬스 체크는 HTTP/HTTPS/TCP를 지원합니다.
-
-#### 기능 개선
-
-##### DNS Plus
-
-* 레코드 세트 생성/수정 시 CNAME 레코드 세트 타입을 사용자의 GSLB 도메인을 선택하여 입력할 수 있도록 개선되었습니다.
-
-### 2019. 12. 17.
-
-#### 기능 개선
-* [한국/일본/미국 리전] 인스턴스에 연결된 모든 네트워크 인터페이스에 각각 플로팅 IP를 연결할 수 있습니다.
-
-### 2019. 10. 29.
-
-#### 기능 개선
-
-##### Load Balancer
-
-* [한국/일본 리전] 체인 인증서를 등록할 때 인증서 파일에 포함된 개별 인증서의 형식이 잘못된 경우, 웹콘솔을 통해 알리는 기능이 추가되었습니다.
-
-### 2019. 08. 27.
-
-#### 기능 개선/변경
-
-##### DNS Plus
-
-* 레코드 세트의 최대 생성 가능 개수를 추가했습니다. DNS Zone당 레코드 세트는 최대 5,000개까지 생성할 수 있습니다.
-* 레코드 세트 통계 조회 시 CNAME 레코드 세트 타입은 A 레코드 세트 타입과 AAAA 레코드 세트 타입을 같이 조회하도록 수정했습니다.
-
-### 2019. 06. 25.
-
-#### 신규 상품 출시
-
-##### DNS Plus
-
-* DNS Plus는 도메인 관리 기능을 제공하는 서비스입니다.
-* DNS 서버를 간편하게 설정할 수 있습니다.
-
-### 2019. 05. 30.
-
-#### 기능 개선
-
-##### Load Balancer
-
-* [일본 리전] IP 접근제어 기능을 사용할 수 있습니다.
-    * IP를 기반으로 한 접근제어 기능을 로드밸런서에서 사용할 수 있습니다.
-    * IP 접근제어 기능에 대한 자세한 사항은 사용자가이드 문서를 참고해주세요.
-
-### 2019. 05. 28.
-
-#### 기능 변경
+### May 26, 2020
+#### Feature Updates
 
 ##### VPC
 
-* [한국 리전] 피어링 생성 기능을 다시 사용할 수 있습니다.
-
-### 2019. 04. 25.
-
-#### 기능 개선
+* Released Public API v2, which is compatible with OpenStack API.
 
 ##### Load Balancer
 
-* IP 접근제어 기능을 사용할 수 있습니다.
-    * IP를 기반으로 한 접근제어 기능을 로드밸런서에서 사용할 수 있습니다.
-    * IP 접근제어 기능에 대한 자세한 사항은 사용자가이드 문서를 참고해주세요.
-    * 유선으로 설정 요청하신 제어 대상 IP 목록은 Default 라는 이름의 IP 접근제어 그룹에 자동 반영되었습니다.
+* The instance of a different subnet that belongs to the same VPC as Load Balancer can be registered as a member of Load Balancer. The subnet to which Load Balancer belongs and the subnet of the instance need to be connected to the routing table.
+* The instance that belongs to a peer VPC can be registered as a member of Load Balancer if the VPC to which Load Balancer belongs has a peering connection. Only the instances of the subnet connected to the default routing table of the peer VPC can be connected.
+* Now, the member instance of each listener can be configured differently. Previously, all the listeners needed to have the same member instance when running multiple listeners in Load Balancer.
+* Released Public API v2, which is compatible with OpenStack API.
 
-### 2018. 12. 27.
+### March 24, 2020
 
-#### 기능 변경
-
-##### VPC
-
-* 피어링 된 두 VPC 사이의 통신 시 패킷 플러딩이 발생할 가능성이 있어, 당분간 새로운 피어링 생성 기능을 제공하지 않습니다.
-	기존에 만들어진 피어링의 통신에는 문제가 없으며 피어링 생성을 제외한 나머지 기능은 그대로 제공됩니다.
-
-### 2018. 11. 27.
-
-#### 버그 수정
+#### Feature Updates
 
 ##### Load Balancer
 
-* 로드 밸런서에 리스너를 추가 생성하는 경우, 비활성화된 인스턴스에 추가된 인스턴스 멤버가 활성화된채 생성되는 버그를 수정하였습니다.
+* Added Certificate management through the Cert Manager service.
+* By registering a certificate at Cert Manager and connecting it to the listener, you can receive an email on certificate expiration date.
 
-#### 기능 개선
+### February 25, 2020
 
-##### Load Balancer
-
-* 로드밸런싱 통계 기능이 추가되어 다음 통계량이 차트 형식으로 제공됩니다.
-    * 세션수, 클라이언트 초당 세션증가량, 인스턴스 초당 세션 증가량, In 트래픽량, Out 트래픽량, 로드밸런싱 제외 개수
-    * 삭제된 로드밸런서, 리스너, 멤버에 대한 통계량은 제공되지 않습니다.
-    * 트래픽량에는 L2, L3, L4 헤더가 포함되지 않습니다.
-    * 자세한 사항은 사용자가이드 문서를 참고해주세요.
-
-
-### 2018. 09. 20.
-
-#### 버그 수정
-
-##### Load Balancer
-
-* Load Balancer에 Member로 등록된 Instance를 삭제할 때 일부 Listener의 Member가 남아있는 문제를 수정했습니다.
-
-#### 기능 개선
-
-##### Load Balancer
-
-* 전용 로드밸런서 서비스가 추가되었습니다.
-* 전용 로드밸런서는 하드웨어 자원을 선점하여 생성되기에 1Gbps의 대역폭과 48만 동시세션을 지원합니다.
-
-### 2018. 08. 28.
-
-#### 버그 수정
-
-##### VPC
-
-* 라우트가 존재하는 서브넷을 가진 VPC에 대해 삭제를 시도할 수 있는 문제를 수정했습니다.
-
-#### 기능 변경
-
-##### VPC
-
-* 서브넷, 라우팅 테이블, 라우트에 대해 최대 생성 가능 개수를 조정했습니다.
-* VPC의 리소스 별 최대 생성 가능 개수는 각 리소스 생성 창의 우측 설명 부분에서 확인하실 수 있습니다.
-    * 서브넷: VPC당 10개까지 생성이 가능합니다.
-    * 라우팅 테이블: VPC당 10개까지 생성이 가능합니다.
-    * 라우트: 라우팅 테이블당 10개까지 생성이 가능합니다.
-
-##### Load Balancer
-
-* TCP, HTTPS 프로토콜을 사용하는 경우 클라이언트의 IP를 알기 위해 Proxy Protocol을 활성화할 수 있습니다.
-* Load Balancer의 Keepalive timeout 값을 설정할 수 있습니다.
-
-
-### 2018. 04. 24.
-
-#### 버그 수정
-
-##### VPC
-
-* 피어링 시 로컬 VPC의 인스턴스에서 피어 VPC의 로드밸런서로 접속이 원활하지 않은 문제를 수정했습니다.
-
-#### 기능 개선
-
-##### VPC
-
-* VPC, 서브넷, 라우팅테이블, 인터넷게이트웨이의 개요 페이지에서 연결된 리소스 정보를 확인할 수 있습니다.
-
-##### Floating IP
-
-* Floating IP 목록에 페이지네이션 기능을 적용했습니다.
+#### Feature Updates
 
 ##### Security Group
 
-* Rule 편집 기능이 추가되었습니다.
+* Added "Description" entry to security group rules. You can add description for each security group rule.
+
+### December 24, 2019
+
+#### Added Features
+
+##### DNS Plus
+
+* Added GSLB (Global Server Load Balancing) to allow stable load balancing of traffic at an endpoint server.
+* The GSLB domain can be configured either, according to routing rules, Disaster Recovery (DR), Random, or Global Load Balancing.
+* The pool serves as a grouping element for endpoint servers at the minimum unit so as to apply the routing rule.
+* Health check is conducted on a regular basis for endpoint servers included to a pool so as to support stable services. Health check is supported for HTTP/HTTPS/TCP.
+
+#### Feature Updates
+
+##### DNS Plus
+
+* Updated to select user's GSLB domain for CNAME record set type, for creating/updating the record set.
+
+### December 17. 2019
+
+#### Feature Updates
+* [Korea/Japan/US Region] Every network interface connected with an instance can be assosicated with each floating IP.
+
+### October 29, 2019
+
+#### Feature Updates
 
 ##### Load Balancer
 
-* Keepalive Timeout을 5분으로 변경하였습니다.
-* Listener의 세션 제한값을 최대 60,000 까지 설정할 수 있습니다.
+* Added the feature of notification via web console, for chain certificate registration, when an individual certificate which is included in the certificate file has an invalid format.
 
-### 2018. 03. 22.
+### August 27, 2019
 
-#### 버그 수정
+#### Feature Updates
+
+##### Load Balancer
+
+* It is available to specify TLS version to communicate with clients via TERMINATED_HTTPS load balancer.
+    * For more details on the setting of load balancer in TLS version, see [user guide](https://docs.toast.com/en/Network/Load%20Balancer/en/overview/#ssltls-version-for-load-balancer).
+
+##### DNS Plus
+
+* Exceeded the maximum available number of record sets to be created. For each DNS zone, up to 5,000 record sets can be created.
+* Modified, in the query of record set statistics for CNAME, to query A record set type along with AAAA record set type.
+
+### June 25, 2019
+
+#### Release of New Products
+
+##### DNS Plus
+
+* DNS Plus provides features for domain management.
+* It is easy to configure a DNS server.
+
+### May 30, 2019
+
+#### Feature Updates
+
+##### Load Balancer
+
+* [Japan Region] IP access control is available.
+    * IP-based access control is available for load balancer.
+    * For more details on IP access control, see user guides.
+
+### May 28, 2019
+
+#### Feature Updates
 
 ##### VPC
 
-* 새로 추가한 서브넷에 인스턴스를 연결하면 DHCP를 통해 IP를 받아오지 못하는 문제를 수정했습니다.
-* 라우팅 정책을 추가할 때 기존 라우팅 정책의 타겟과 동일한 타겟을 입력할 수 있는 문제를 수정했습니다.
-* Floating IP가 연결된 인스턴스에서 간헐적으로 다른 서브넷에 위치한 인스턴스와 통신이 되지 않는 문제를 수정했습니다.
+* [Korea Region] Creating a peering can be made available again.
 
-### 2018. 02. 22.
+### April 25, 2019
 
-#### 버그 수정
+#### Feature Updates
+
+##### Load Balancer
+
+* IP access control is available.
+    * IP-based access control is available at load balancer.
+    * For more details on IP access control features, see User Guide.
+    * List of IPs for control has been auto-applied to the IP access control group named Default.
+
+### December 27, 2018
+
+#### Feature Updates
 
 ##### VPC
 
-* Floating IP가 연결된 인스턴스에서 로컬 네트워크로 트래픽이 전달되지 않는 문제를 수정했습니다.
+* Creating a new peering is not going to be provided for the time being, due to concerns for packet flooding between peered VPCs.
+	Such concerns, however, are not related to communication between previously created peering, and features are provided as usual, except peering creation.
 
-#### 기능 개선
+### November 27, 2018
 
-##### Network 기본 모델로 VPC를 도입했습니다.
-
-* 서브넷을 여러개 사용할 수 있습니다.
-* 서브넷 단위로 포트를 생성하여 인스턴스에 연결할 수 있습니다.
-* 라우팅 정책을 추가할 수 있습니다.
-* VPC간 통신을 위해 피어링 기능이 추가되었습니다.
-* 인스턴스에 여러 VPC 포트를 추가하거나 삭제할 수 있습니다.
-* 자세한 내용은 VPC Overview와 사용자 가이드를 참고해주시기 바랍니다.
-
-
-### 2017. 11. 23.
-
-#### 버그 수정
-
-##### Load Balancer
-* Load Balancer 생성시 리스너의 연결 제한값이 잘못 표기되는 현상을 수정하였습니다.
-
-### 2017. 10. 26.
-
-#### 버그 수정
-
-##### Load Balancer
-* Load Balancer 생성시 인증서가 등록되지 않는 버그가 수정되었습니다.
-
-### 2017. 09. 21.
-
-#### 기능 추가
-
-##### Public API 추가
-
-* Object Storage에 이어 Compute&Network 상품을 API를 이용해 관리할 수 있습니다.
-* 현재 제한적인 기능만 이용할 수 있으며, 추후 API 추가를 통해 기능이 확장되었습니다.
-
-#### 버그 수정
-
-* Project에 Admin 권한이 없는 사용자가 security group을 수정할 수 없도록 수정되었습니다.
-* Project에 Admin 권한이 없는 사용자에게는 Network 메뉴가 노출되지 않도록 수정되었습니다.
-
-### 2017. 08. 24.
-
-#### 버그 수정
-
-##### Load Balancer
-* Load Balancer 서비스의 세션 지속성 항목이 제대로 표시되지 않던 버그가 수정되었습니다.
-
-### 2017. 04. 20.
-
-#### 버그 수정
-##### Load Balancer
-* Listener에 인증서 파일 업로드시 간헐적으로 인증서 등록창이 사라지는 버그가 수정되었습니다.
-
-
-### 2017. 03. 23.
-
-#### 버그 수정
-##### Floating IP
-* Floating IP 연결 팝업에서 "생성" 버튼이 노출되지 않는 문제가 수정되었습니다.
-
-
-### 2017. 02. 23.
-
-#### 기능 개선/변경
+#### Bug Fixes
 
 ##### Load Balancer
 
-* 로드밸런서에 등록된 리스너가 1개일 경우 삭제할 수 없다는 것을 알리도록 변경합니다.
-	  * 기존에도 삭제가 되지 않았으나 사용자에게 별다른 알림이 없어 혼동을 주었습니다.
-	  * 이제 사용자에게 명시적으로 삭제할 수 없다고 메시지를 공지하도록 변경합니다.
+* Fixed a bug occurring when a listener is added to load balancer, in which, an instance member that is newly added to a deactivate instance is created while activated.
 
-##### Floating IP
-
-* Floating IP 삭제 시 인스턴스 혹은 로드밸런서가 연결되어 있을 경우 삭제 할 수 없도록 변경합니다.
-	  * 기존에는 인스턴스나 로드밸런서가 연결되어 있는 Floating IP를 삭제할 수 있어 서비스에 장애를 일으킬 수 있었습니다.
-	  * 이런 실수를 미연에 방지할 수 있도록 연결이 있는 Floating IP는 삭제할 수 없도록 변경합니다.
-* 명칭변경 : '포트' -> '네트워크 인터페이스'
-	  * 인스턴스에 Floating IP를 붙일 때 대상이 되는 명칭을 기존 “포트”에서 “네트워크 인터페이스”로 변경합니다.
-
-
-### 2017. 01. 19.
-
-#### 버그 수정
-##### Load Balancer
-* Load Balancer 생성시 연결 제한 설정이 적용되지 않는 문제를 수정하였습니다.
-
-
-
-### 2016. 12. 22.
-
-#### 버그 수정
+#### Feature Updates
 
 ##### Load Balancer
-* Health Check Protocol이 TCP인 경우 Listener 내용 수정이 안되는 문제를 수정하였습니다.
+
+* Added the statistics feature for load balancing, with the following statistical volume provided on a chart.
+    * Session count, Session increase volume of client per second, Session increase volume of instance per second, In/Out traffic volume, Number of exceptions to load balancing
+    * Statistics on deleted load balancers, listeners, or members are not provided.
+    * Traffic volume does not include L2, L3, and L4 headers.
+    * For more details, see User Guide.
+
+
+### September 20, 2018
+
+#### Bug Fixes
+
+##### Load Balancer
+
+* Fixed an issue in which some listener members still remain after an instance which is registered as member of load balancer is deleted.
+
+#### Feature Updates
+
+##### Load Balancer
+
+* Added dedicated load balancer services.
+* Since dedicated load balancer services are created by occupying hardware resources, 1Gbps bandwidth for 48 thousand concurrent sessions are supported.
+
+### August 28, 2018
+
+#### Bug Fixes
+
+##### VPC
+
+* Fixed an issue in which deleting may be tried to VPC with subnets that have routes
+
+#### Feature Updates
+
+##### VPC
+
+* Updated the maximum available numbers to create subnet, routing table, and route.
+* Check the maximum available numbers to create each resource of VPC from description on the right of the popup.
+    * Subnet: Available up to 10 for each VPC.
+    * Routing Table: Available up to 10 for each VPC.
+    * Route: Available up to 10 for each routing table.
+
+##### Load Balancer
+
+* For TCP or HTTPS protocol, a proxy protocol can be activated to check client IP.
+* Keepalive timeout can be configured for load balancer.
+
+
+### April 24, 2018
+
+#### Bug Fixes
+
+##### VPC
+
+* Fixed failed access to load balancer of a peer VPC from instance of a local VPC.
+
+#### Feature Updates
+
+##### VPC
+
+* You can find information of attached resources on Overview of VPC, Subnet, Routing Table, and Internet Gateway.
 
 ##### Floating IP
-* Floating IP에 연결된 Load Balancer의 이름이 노출되지 않는 문제를 수정하였습니다.
+
+* Applied pagination to Floating IP list.
 
 ##### Security Group
-* 중복된 Rule 추가 시 Security Group 목록이 사라지는 문제를 수정하였습니다.
 
-
-
-
-
-
-### 2016. 12. 08.
-
-#### 버그 수정
+* Added rule editing.
 
 ##### Load Balancer
-* Load Balancer의 Heath check url이 미노출되는 문제를 수정하였습니다.
-* Listener 수정 버튼 클릭시 기등록한 Health Check URL이 아닌 "/"로 노출되는 문제를 수정하였습니다.
+
+* Changed the Keeaplive Timeout to 5 minutes.
+* Up to 60,000 session limit can be configured for listener.
+
+### March 22, 2018
+
+#### Bug Fixes
+
+##### VPC
+
+* Fixed failure in getting an IP via DHCP when an instance is attached to a newly added subnet.
+* Fixed an issue in which the same target of a previous routing policy may be entered to add a routing policy.
+* Fixed infrequently failed communication of an instance associated to a floating IP with an instance located at a different subnet.
+
+### February 22, 2018
+
+#### Bug Fixes
+
+##### VPC
+
+* Fixed failed traffic from an instance associated with floating IP to a local network.
+
+#### Feature Updates
+
+##### Adopted VPC as Basic Model for Network
+
+* You can use many subnets.
+* A port can be created by the subnet and attached to an instance.
+* More routing policies can be added.
+* Added the peering feature for communication between VPCs.
+* Many VPC ports may be added to or deleted from an instance.
+* For more details, Overview and User Guide of VPC.
 
 
+### November 23, 2017
 
+#### Bug Fixes
 
-
-
-
-
-### 2016. 11. 29.
-
-#### 버그 수정
 ##### Load Balancer
-* TERMINATED_HTTPS type의 Load Balancer 생성이 실패하던 문제를 수정하였습니다.
+* Fixed the display of invalid connection limit for listener, when a load balancer is created.
 
+### October 26, 2017
 
+#### Bug Fixes
 
-### 2016. 11. 24.
-
-#### 기능 개선/변경
 ##### Load Balancer
-* Load Balancer의 Listener별 세션 제한 값을 노출하도록 변경하였습니다.
+* Fixed failure in certificate registration when a load balancer is created.
 
-#### 버그 수정
+### September 21, 2017
+
+#### Added Features
+
+##### Added Public API
+
+* Like Object Storage, you can also manage Compute & Network by using APIs.
+* The feature is limited at the moment, but will be extended by adding more APIs.
+
+#### Bug Fixes
+
+* Fixed to disallow users without project admin authority to modify security group.
+* Updated not to show the Network menu to users, except authorized admin users of a project.
+
+### August 24, 2017
+
+#### Bug Fixes
+
 ##### Load Balancer
-* 특정 Project에서 Load Balancer 생성 실패하던 문제를 수정하였습니다.
+* Fixed a bug in which the session persistence of load balancer did not show properly.
 
+### April 20, 2017
 
-
-### 2016. 08. 04.
-
-#### 기능 개선/변경
+#### Bug Fixes
 ##### Load Balancer
-* Load Balancer의 SSL offloading 기능을 추가하였습니다.
+* Fixed a bug in which the popup for certificate registration is frequently missing while uploading certificate files to listener.
 
-#### 버그 수정
+
+### March 23, 2017
+
+#### Bug Fixes
+##### Floating IP
+* Fixed failed display of the "Create" button on the popup for associating with floating IP.
+
+
+### February 23, 2017
+
+#### Feature Updates
+
 ##### Load Balancer
-* Load Balancer 제거 시 간헐적으로 정상 종료되지 않던 문제를 수정하였습니다.
+
+* Updated to notify that deleting a listener is unavailable, if there is only one registered listener to a load balancer.
+	  * There's no defacto change in the process: sending no notification may have been confusing to some users.
+	  * The updated version now allows the user to be notified clearly that it is unavailable to delete.
+
+##### Floating IP
+
+* Updated to prevent a floating IP from being deleted, if it is associated with an instance or a load balancer.
+	  * Previously, deleting a floating IP which is associated with an instance or a load balancer might have caused a failure to service.
+	  * To prevent any potential error, the updated version disallows an associated floating IP to be deleted.
+* Name Changes: 'Port' -> 'Network Interface'
+	  * Name for the target of floating IP to be associated with is changed from "Port" to "Network Interface".
+
+
+### January 19, 2017
+
+#### Bug Fixes
+##### Load Balancer
+* Fixed the issue in which the restricted connection setting was not applied when creating a load balancer.
+
+
+
+### December 22, 2016
+
+#### Bug Fixes
+
+##### Load Balancer
+* Fixed failed editing of listener when the Health Check Protocol is TCP.
+
+##### Floating IP
+* Fixed failed display of the name of load balancer associated with floating IP.
+
+##### Security Group
+* Fixed an issue in which security group list disappears when a duplicate rule is added.
+
+
+
+
+
+
+### December 8, 2016
+
+#### Bug Fixes
+
+##### Load Balancer
+* Fixed failed display of Health Check URL of load balancer.
+* Fixed the show of "/", instead of a registered Health Check URL, at the click of Edit Listener,
+
+
+
+
+
+
+
+
+### November 29, 2016
+
+#### Bug Fixes
+##### Load Balancer
+* Fixed failure in creating TERMINATED_HTTPS-type load balancers.
+
+
+
+### November 24, 2016
+
+#### Feature Updates
+##### Load Balancer
+* Updated to show the value of session limit per listener of load balancer.
+
+#### Bug Fixes
+##### Load Balancer
+* Fixed failure in creating load balancers at a particular project.
+
+### August 4, 2016
+
+#### Feature Updates
+##### Load Balancer
+* Added SSL offloading of load balancer.
+
+#### Bug Fixes
+##### Load Balancer
+* Fixed infrequent failure in closing when load balancer is removed.

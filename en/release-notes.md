@@ -13,6 +13,11 @@
 
 * [Pyeongchon region, Korea] Added the VPN Gateway feature.
 
+##### NAT Gateway
+
+* [Pangyo region, Korea] Added the NAT Gateway feature.
+
+
 ### March 29, 2022
 
 #### Added Features
