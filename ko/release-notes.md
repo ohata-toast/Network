@@ -6,8 +6,8 @@
 
 ##### Service Gateway
 
-* 신규 서비스 추가
-    * Cloud Trail
+* 지원 서비스 추가
+    * CloudTrail
 
 ### 2022. 05. 24.
 
