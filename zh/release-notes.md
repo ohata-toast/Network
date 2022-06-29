@@ -1,5 +1,14 @@
 ## Network > Release Notes
 
+### June 30, 2022
+
+#### Feature Updates
+
+##### Service Gateway
+
+* Added a supported service
+    * CloudTrail
+
 ### May 24, 2022
 
 #### Added Features
