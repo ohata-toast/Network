@@ -1,5 +1,13 @@
 ## Network > Release Notes
 
+### July 26, 2022
+
+#### Added Features
+
+##### Load Balancer
+
+* Added the feature to change host header field values for health checks.
+
 ### June 30, 2022
 
 #### Feature Updates
