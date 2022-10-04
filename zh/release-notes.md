@@ -1,5 +1,14 @@
 ## Network > Release Notes
 
+### October 26, 2022
+
+#### Feature Updates
+
+##### Service Gateway
+
+* Added a supported service
+    * NCR
+
 ### June 30, 2022
 
 #### Feature Updates
