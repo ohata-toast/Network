@@ -1,5 +1,13 @@
 ## Network > Release Notes
 
+### November, 29, 2022
+
+#### Added Features
+
+##### Peering Gateway
+
+* [Pyeongchon/Pangyo region, Korea] Added the feature to configure a route for Peering, Project peering, and Region peering.
+
 ### October 26, 2022
 
 #### Feature Updates
