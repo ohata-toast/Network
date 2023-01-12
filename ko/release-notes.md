@@ -2,9 +2,16 @@
 
 ### 2023. 01. 31.
 
+#### 기능 개선
+
 ##### Colocation Gateway
 
 * [한국 평촌/판교 리전] 코로케이션 게이트웨이에 라우트를 설정할 수 있는 기능이 추가되었습니다.
+
+##### Service Gateway
+
+* 동일 VPC의 Service Gateway만 사용할 수 있는 제약 사항이 제거 되었습니다. 
+* Peering Gateway, Colocation Gateway 를 경유하여 다른 VPC의 Service Gateway를 이용할 수 있습니다.
 
 ### 2022. 11. 29.
 
