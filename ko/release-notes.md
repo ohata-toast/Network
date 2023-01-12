@@ -10,8 +10,8 @@
 
 ##### Service Gateway
 
-* 동일 VPC의 Service Gateway만 통신이 가능한 제약 사항이 제거 되었습니다. 
-* Peering Gateway, Colocation Gateway 를 경유하여 다른 VPC의 Service Gateway와 통신할 수 있습니다.
+* 동일 VPC의 서비스 게이트웨이만 통신이 가능한 제약 사항이 제거 되었습니다. 
+* Peering Gateway, Colocation Gateway 를 경유하여 다른 VPC의 서비스 게이트웨이를 이용할 수 있습니다.
 
 ### 2022. 11. 29.
 
