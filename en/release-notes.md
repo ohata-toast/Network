@@ -1,5 +1,18 @@
 ## Network > Release Notes
 
+### January 31, 2023
+
+#### Feature Updates
+
+##### Colocation Gateway
+
+* [Pyeongchon/Pangyo region, Korea] Added the feature to set a route to colocation gateway.
+
+##### Service Gateway
+
+* Removed the constraint where communication is only possible for service gateway within the same VPC. 
+* You can use the service gateway of other VPCs via peering gateway and colocation gateway.
+
 ### November, 29, 2022
 
 #### Added Features
