@@ -13,7 +13,7 @@
 
 ##### VPC
 
-* VPC 및 VPC Subnet API가 추가되었습니다.   
+* Public API에 VPC 및 VPC Subnet API가 추가되었습니다. 자세한 사항은 [VPC API 사용자 가이드]()을 참고해 주세요. 
 
 ### 2023. 01. 31.
 
