@@ -15,6 +15,12 @@
 
 * Public API에 VPC 및 VPC Subnet API가 추가되었습니다. 자세한 사항은 [VPC API 사용자 가이드]()을 참고해 주세요. 
 
+#### 기능 변경
+
+##### VPC, Floating IP, Security Groups, Load Balancer
+
+* API 엔드포인트 주소가 변경되었습니다.
+
 ### 2023. 01. 31.
 
 #### 기능 개선
