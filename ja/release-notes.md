@@ -1,5 +1,26 @@
 ## Network > リリースノート
 
+### 2023. 03. 28.
+
+#### 機能追加
+
+##### Traffic Mirroring
+
+* Traffic Mirroring機能が追加されました。パケットをキャプチャしてコンテンツセキュリティ、脅威分析、トラブルシューティングなどの目的を持つ検出ツールにルーティングできます。
+    * サービスゲートウェイは韓国(ピョンチョン)リージョンと韓国(パンギョ)リージョンでのみ利用できます。
+
+#### 機能改善 
+
+##### VPC
+
+* Public APIにVPCおよびVPC Subnet APIが追加されました。詳細については、 [VPC APIユーザーガイド](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/)を参照してください。 
+
+#### 機能変更
+
+##### VPC、Floating IP、Security Groups、Load Balancer
+
+* APIエンドポイントアドレスが変更されました。
+
 ### 2023. 01. 31.
 
 #### 機能改善
