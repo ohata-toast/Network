@@ -1,5 +1,24 @@
 ## Network > Release Notes
 
+### March 28, 2023
+
+#### Added Features
+
+##### Traffic Mirroring
+
+* Added the Traffic Mirroring feature. Packets can be captured and routed to detection tools for purposes such as content security, threat analysis, and troubleshooting.
+    * Service Gateway is only available in Korea (Pyeongchon) and Korea (Pangyo) regions.
+
+#### Feature Updates
+
+##### VPC
+
+* Added the VPC and VPC Subnet API to Public API. For more information, see [VPC API Guide](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/). 
+
+##### VPC, Floating IP, Security Groups, Load Balancer
+
+* Changed API endpoint addresses.
+
 ### January 31, 2023
 
 #### Feature Updates
