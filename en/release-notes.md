@@ -7,7 +7,7 @@
 ##### Traffic Mirroring
 
 * Added the Traffic Mirroring feature. Packets can be captured and routed to detection tools for purposes such as content security, threat analysis, and troubleshooting.
-    * Service Gateway is only available in Korea (Pyeongchon) Region and Korea (Pangyo) Region.
+    * Service Gateway is only available in Korea (Pyeongchon) and Korea (Pangyo) regions.
 
 #### Feature Updates
 
