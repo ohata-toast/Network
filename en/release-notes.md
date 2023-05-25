@@ -1,5 +1,15 @@
 ## Network > Release Notes
 
+### May 30, 2023
+
+#### Feature Updates
+
+##### Network Interface
+
+* Improved the Network Interface UI
+    * Added the search feature.
+    * Improved to display device names.
+
 ### March 28, 2023
 
 #### Added Features
