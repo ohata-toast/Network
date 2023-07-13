@@ -13,6 +13,9 @@
 
 * [한국 판교 리전] VPN Gateway 기능이 추가되었습니다.
 
+##### VPC
+
+* VPC 공유 기능이 추가되었습니다. 내 프로젝트의 VPC를 다른 프로젝트와 공유할 수 있습니다. 자세한 사항은 [콘솔 사용 가이드](https://docs.nhncloud.com/ko/Network/VPC/ko/console-guide/)와 [VPC API 사용자 가이드](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/)를 참고해 주세요.
 
 ### 2023. 05. 30.
 
