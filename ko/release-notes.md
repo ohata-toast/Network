@@ -24,6 +24,11 @@
 ##### VPC
 
 * VPC 공유 기능이 추가되었습니다. 내 프로젝트의 VPC를 다른 프로젝트와 공유할 수 있습니다. 자세한 사항은 [콘솔 사용 가이드](https://docs.nhncloud.com/ko/Network/VPC/ko/console-guide/)와 [VPC API 사용자 가이드](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/)를 참고해 주세요.
+* Public API에 Routing API가 추가되었습니다. [VPC API 사용자 가이드](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/)를 참고해 주세요.
+
+##### Network ACL
+
+* [한국 평촌 리전] Public API가 출시되었습니다. [Network ACL 사용자 가이드]()를 참고해 주시요.
 
 ### 2023. 05. 30.
 
