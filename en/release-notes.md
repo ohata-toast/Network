@@ -19,7 +19,7 @@
 
 ##### NAT Instance
 
-* Added the NAT Instance featrue t0 the Korea (Pangyo) region.
+* Added the NAT Instance feature to the Korea (Pangyo) region.
 
 ##### VPC
 
