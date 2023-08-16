@@ -1,5 +1,34 @@
 ## Network > 릴리스 노트
 
+### 2023. 08. 29.
+
+#### 기능 추가
+
+##### Transit Hub
+
+* Transit Hub 신규 서비스가 추가되었습니다. VPC들을 중앙 집중식 연결로 관리하며 연결된 리소스들 간에 라우팅과 멀티캐스트 통신을 제공합니다.
+    * 트랜짓 허브는 한국(평촌) 리전과 한국(판교) 리전에서만 이용할 수 있습니다.
+
+##### Private DNS
+* Private DNS 신규 서비스가 추가되었습니다. VPC 별로 독립된 DNS를 구성할 수 있습니다. 
+  * Private DNS는 한국(평촌) 리전과 한국(판교) 리전에서만 이용할 수 있습니다. 
+
+##### VPN Gateway
+
+* 한국(판교) 리전에 VPN Gateway 기능이 추가되었습니다.
+
+##### NAT 인스턴스
+
+* 한국(판교) 리전에 NAT 인스턴스 기능이 추가되었습니다.
+
+##### VPC
+
+* Public API에 Routing API가 추가되었습니다. [VPC API 가이드](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/)를 참고해 주세요.
+
+##### Network ACL
+
+* 한국(판교) Public API가 출시되었습니다. [Network ACL API 가이드](https://docs.nhncloud.com/ko/Network/Network%20ACL/ko/public-api/)를 참고해 주시요.
+
 ### 2023. 05. 30.
 
 #### 기능 개선
