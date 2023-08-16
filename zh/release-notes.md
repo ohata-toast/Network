@@ -23,11 +23,11 @@
 
 ##### VPC
 
-* Added the Routing API to Public API. See [VPC API Guide](https://docs.nhncloud.com/zh/Network/VPC/ko/public-api/).
+* Added the Routing API to Public API. See [VPC API Guide](https://docs.nhncloud.com/zh/Network/VPC/zh/public-api/).
 
 ##### Network ACL
 
-* [Pangyo region, Korea]  Released Public API. See [Network ACL API Guide](https://docs.nhncloud.com/zh/Network/Network%20ACL/ko/public-api/).
+* [Pangyo region, Korea]  Released Public API. See [Network ACL API Guide](https://docs.nhncloud.com/zh/Network/Network%20ACL/zh/public-api/).
 
 ### May 30, 2023
 
@@ -52,7 +52,7 @@
 
 ##### VPC
 
-* Added the VPC and VPC Subnet API to Public API. For more information, see [VPC API Guide](https://docs.nhncloud.com/zh/Network/VPC/ko/public-api/). 
+* Added the VPC and VPC Subnet API to Public API. For more information, see [VPC API Guide](https://docs.nhncloud.com/zh/Network/VPC/zh/public-api/). 
 
 ##### VPC, Floating IP, Security Groups, Load Balancer
 
