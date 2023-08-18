@@ -1,5 +1,34 @@
 ## Network > リリースノート
 
+### 2023. 08. 29.
+
+#### 機能追加
+
+##### Transit Hub
+
+* Transit Hub新規サービスが追加されました。VPCを中央集中式接続で管理し、接続されたリソース間のルーティングとマルチキャスト通信を提供します。
+    * Transit Hubは韓国(ピョンチョン)リージョンと韓国(パンギョ)リージョンでのみ利用できます。
+
+##### Private DNS
+* Private DNS新規サービスが追加されました。 VPCごとに独立したDNSを構成できます。 
+  * Private DNSは韓国(ピョンチョン)リージョンと韓国(パンギョ)リージョンでのみ利用できます。 
+
+##### VPN Gateway
+
+* 韓国(パンギョ)リージョンにVPN Gateway機能が追加されました。
+
+##### NATインスタンス
+
+* 韓国(パンギョ)リージョンにNATインスタンス機能が追加されました。
+
+##### VPC
+
+* Public APIにRouting APIが追加されました。 [VPC APIガイド](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/)を参照してください。
+
+##### Network ACL
+
+* 韓国(パンギョ) Public APIがリリースされました。[Network ACL APIガイド](https://docs.nhncloud.com/ko/Network/Network%20ACL/ko/public-api/)を参照してください。
+
 ### 2023. 05. 30.
 
 #### 機能改善
