@@ -9,10 +9,6 @@
 * Added the Transit Hub service. The service manages VPCs through a centralized connectivity and provides routing and multicast communication between connected resources.
     * Transit Hub is only available in the Korea (Pyeongchon) and Korea (Pangyo) regions.
 
-##### Private DNS
-* Added the Private DNS service. The service allows you to configure a seprate DNS per VPC. 
-  * Private DNS is only available in the Korea (Pyeongchon) and Korea (Pangyo) regions.
-
 ##### VPN Gateway
 
 * Added the VPN Gateway feature to the Korea (Pangyo) region.
