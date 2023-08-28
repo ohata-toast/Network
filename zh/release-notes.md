@@ -1,5 +1,59 @@
 ## Network > Release Notes
 
+### August 29, 2023
+
+#### Added Features
+
+##### Transit Hub
+
+* Added the Transit Hub service. The service manages VPCs through a centralized connectivity and provides routing and multicast communication between connected resources.
+    * Transit Hub is only available in the Korea (Pyeongchon) and Korea (Pangyo) regions.
+
+##### VPN Gateway
+
+* Added the VPN Gateway feature to the Korea (Pangyo) region.
+
+##### NAT Instance
+
+* Added the NAT Instance feature to the Korea (Pangyo) region.
+
+##### VPC
+
+* Added the Routing API to Public API. See [VPC API Guide](https://docs.nhncloud.com/zh/Network/VPC/zh/public-api/).
+
+##### Network ACL
+
+* [Pangyo region, Korea]  Released Public API. See [Network ACL API Guide](https://docs.nhncloud.com/zh/Network/Network%20ACL/zh/public-api/).
+
+### May 30, 2023
+
+#### Feature Updates
+
+##### Network Interface
+
+* Improved the Network Interface UI
+    * Added the search feature.
+    * Improved to display device names.
+
+### March 28, 2023
+
+#### Added Features
+
+##### Traffic Mirroring
+
+* Added the Traffic Mirroring feature. Packets can be captured and routed to detection tools for purposes such as content security, threat analysis, and troubleshooting.
+    * Traffic Mirroring is only available in Korea (Pyeongchon) and Korea (Pangyo) regions.
+
+#### Feature Updates
+
+##### VPC
+
+* Added the VPC and VPC Subnet API to Public API. For more information, see [VPC API Guide](https://docs.nhncloud.com/zh/Network/VPC/zh/public-api/). 
+
+##### VPC, Floating IP, Security Groups, Load Balancer
+
+* Changed API endpoint addresses.
+
 ### January 31, 2023
 
 #### Feature Updates
