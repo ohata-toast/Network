@@ -23,7 +23,7 @@
 
 ##### Network ACL
 
-* [Pangyo region, Korea]  Released Public API. See [Network ACL API Guide](https://docs.nhncloud.com/zh/Network/Network%20ACL/zh/public-api/).
+* [Pyeongchon region, Korea]  Released Public API. See [Network ACL API Guide](https://docs.nhncloud.com/zh/Network/Network%20ACL/zh/public-api/).
 
 ### May 30, 2023
 
