@@ -23,7 +23,7 @@
 
 ##### Network ACL
 
-* 韓国(パンギョ) Public APIがリリースされました。[Network ACL APIガイド](https://docs.nhncloud.com/ko/Network/Network%20ACL/ko/public-api/)を参照してください。
+* 韓国(ピョンチョン) Public APIがリリースされました。[Network ACL APIガイド](https://docs.nhncloud.com/ko/Network/Network%20ACL/ko/public-api/)を参照してください。
 
 ### 2023. 05. 30.
 
