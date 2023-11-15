@@ -1,5 +1,18 @@
 ## Network > Release Notes
 
+### November 28, 2023
+
+#### Added Features
+
+##### Load Balancer
+
+* Added the feature to apply subnet static routes to load balancers. You can apply static routes set on the subnet to which the load balancer belongs to load balancers as well as to instances.
+
+##### Private DNS
+
+* Added the Private DNS service. You can configure independent DNS for each VPC. 
+  * Private DNS is only available in the Korea (Pyeongchon) region and Korea (Pangyo) region.
+
 ### August 29, 2023
 
 #### Added Features
