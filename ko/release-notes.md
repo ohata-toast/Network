@@ -13,6 +13,10 @@
 
 ##### Load Balancer
 * 로드 밸런서 삭제 보호 기능이 추가되었습니다.
+* Public API에 L7 로드밸런싱 관련 API가 추가되었습니다. [로드밸런서 API 가이드](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/public-api/)를 참고해 주세요.
+
+#### Transit Hub
+* Public API가 추가되었습니다. [Transit Hub API 가이드](https://docs.nhncloud.com/ko/Network/Transit%20Hub/ko/public-api/)를 참고해 주세요.
 
 
 #### 기능 개선/변경
