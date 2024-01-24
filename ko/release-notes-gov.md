@@ -9,6 +9,7 @@
 
 ##### Load Balancer
 * 로드 밸런서 삭제 보호 기능이 추가되었습니다.
+* Public API에 L7 로드밸런싱 관련 API가 추가되었습니다. [로드밸런서 API 가이드](https://docs.gov-nhncloud.com/ko/Network/Load%20Balancer/ko/public-api-gov/)를 참고해 주세요.
 
 
 ### 2023. 11. 30.
@@ -18,7 +19,6 @@
 ##### Load Balancer
 
 * 로드 밸런서에 서브넷 정적 라우트 적용 기능이 추가되었습니다. 로드 밸런서가 속한 서브넷에 설정된 정적 라우트를 인스턴스뿐만 아니라 로드 밸런서에도 적용할 수 있습니다.
-* Public API에 L7 로드밸런싱 관련 API가 추가되었습니다. [로드밸런서 API 가이드](https://docs.gov-nhncloud.com/ko/Network/Load%20Balancer/ko/public-api-gov/)를 참고해 주세요.
 
 ### 2023. 09. 05.
 
