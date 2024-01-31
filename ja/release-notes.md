@@ -1,5 +1,30 @@
 ## Network > リリースノート
 
+### 2024. 02. 27.
+
+#### 機能追加
+
+##### Private DNS
+
+- 韓国(光州)リージョンにPrivate DNSサービスが追加されました。
+
+##### Floating IP
+* Floating IP削除保護機能が追加されました。
+
+##### Load Balancer
+* ロードバランサー削除保護機能が追加されました。
+* Public APIにL7ロードバランシング関連APIが追加されました。 [ロードバランサーAPIガイド](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/public-api/)を参照してください。
+
+#### Transit Hub
+* Public APIが追加されました。 [Transit Hub APIガイド](https://docs.nhncloud.com/ko/Network/Transit%20Hub/ko/public-api/)を参照してください。
+
+
+#### 機能改善/変更
+
+##### Private DNS
+
+- レコードセットに説明フィールドが追加されました。
+
 ### 2023. 11. 28.
 
 #### 機能追加
