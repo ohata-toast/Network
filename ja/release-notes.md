@@ -13,10 +13,10 @@
 
 ##### Load Balancer
 * ロードバランサー削除保護機能が追加されました。
-* Public APIにL7ロードバランシング関連APIが追加されました。 [ロードバランサーAPIガイド](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/public-api/)を参照してください。
+* Public APIにL7ロードバランシング関連APIが追加されました。 [ロードバランサーAPIガイド](https://docs.nhncloud.com/ja/Network/Load%20Balancer/ja/public-api/)を参照してください。
 
 #### Transit Hub
-* Public APIが追加されました。 [Transit Hub APIガイド](https://docs.nhncloud.com/ko/Network/Transit%20Hub/ko/public-api/)を参照してください。
+* Public APIが追加されました。 [Transit Hub APIガイド](https://docs.nhncloud.com/ja/Network/Transit%20Hub/ja/public-api/)を参照してください。
 
 
 #### 機能改善/変更
@@ -57,11 +57,11 @@
 
 ##### VPC
 
-* Public APIにRouting APIが追加されました。 [VPC APIガイド](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/)を参照してください。
+* Public APIにRouting APIが追加されました。 [VPC APIガイド](https://docs.nhncloud.com/ja/Network/VPC/ja/public-api/)を参照してください。
 
 ##### Network ACL
 
-* 韓国(ピョンチョン) Public APIがリリースされました。[Network ACL APIガイド](https://docs.nhncloud.com/ko/Network/Network%20ACL/ko/public-api/)を参照してください。
+* 韓国(ピョンチョン) Public APIがリリースされました。[Network ACL APIガイド](https://docs.nhncloud.com/ja/Network/Network%20ACL/ja/public-api/)を参照してください。
 
 ### 2023. 05. 30.
 
@@ -86,7 +86,7 @@
 
 ##### VPC
 
-* Public APIにVPCおよびVPC Subnet APIが追加されました。詳細については、 [VPC APIユーザーガイド](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/)を参照してください。 
+* Public APIにVPCおよびVPC Subnet APIが追加されました。詳細については、 [VPC APIユーザーガイド](https://docs.nhncloud.com/ja/Network/VPC/ja/public-api/)を参照してください。 
 
 #### 機能変更
 
