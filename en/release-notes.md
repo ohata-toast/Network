@@ -520,7 +520,7 @@
 
 #### Added Features
 
-##### Added `Public API`
+##### Added Public API
 
 * Like Object Storage, you can also manage Compute & Network by using APIs.
 * The feature is limited at the moment, but will be extended by adding more APIs.
