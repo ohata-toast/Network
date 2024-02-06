@@ -1,4 +1,28 @@
 ## Network > Release Notes
+### February 27, 2024
+
+#### Added Features
+
+##### Private DNS
+
+-  Private DNS is also available in the Korea (Gwangju) region.
+
+##### Floating IP
+* Added the feature to protect floating IPs from deletion.
+
+##### Load Balancer
+* Added the feature to protect load balancer from deletion.
+* Added L7 Load Balancing-related API to Public API. See [Load Balancer API Guide](https://docs.nhncloud.com/en/Network/Load%20Balancer/en/public-api/).
+
+#### Transit Hub
+* Released Public API. See [Transit Hub API Guide](https://docs.nhncloud.com/en/Network/Transit%20Hub/en/public-api/).
+
+
+#### Feature Updates
+
+##### Private DNS
+
+- Added the description field to the record set.
 
 ### November 28, 2023
 
@@ -496,7 +520,7 @@
 
 #### Added Features
 
-##### Added Public API
+##### Added `Public API`
 
 * Like Object Storage, you can also manage Compute & Network by using APIs.
 * The feature is limited at the moment, but will be extended by adding more APIs.
