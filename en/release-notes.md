@@ -14,9 +14,6 @@
 * Added the feature to protect load balancer from deletion.
 * Added L7 Load Balancing-related API to Public API. See [Load Balancer API Guide](https://docs.nhncloud.com/en/Network/Load%20Balancer/en/public-api/).
 
-#### Transit Hub
-* Released Public API. See [Transit Hub API Guide](https://docs.nhncloud.com/en/Network/Transit%20Hub/en/public-api/).
-
 
 #### Feature Updates
 
