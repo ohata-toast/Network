@@ -4,10 +4,6 @@
 
 #### 機能追加
 
-##### Private DNS
-
-- 韓国(光州)リージョンにPrivate DNSサービスが追加されました。
-
 ##### Floating IP
 * Floating IP削除保護機能が追加されました。
 
