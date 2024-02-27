@@ -1,4 +1,26 @@
 ## Network > 릴리스 노트
+### 2024. 02. 27.
+
+#### 기능 추가
+
+##### Private DNS
+
+- 한국(광주) 리전에 Private DNS 서비스가 추가되었습니다.
+
+##### Floating IP
+* 플로팅 IP 삭제 보호 기능이 추가되었습니다.
+
+##### Load Balancer
+* 로드 밸런서 삭제 보호 기능이 추가되었습니다.
+* Public API에 L7 로드 밸런싱 관련 API가 추가되었습니다. [로드 밸런서 API 가이드](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/public-api/)를 참고해 주세요.
+
+
+#### 기능 개선/변경
+
+##### Private DNS
+
+- 레코드 세트에 설명 필드가 추가되었습니다.
+
 
 ### 2023. 11. 28.
 

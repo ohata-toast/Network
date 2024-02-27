@@ -1,5 +1,17 @@
 ## Network > 릴리스 노트
 
+### 2024. 02. 29.
+
+#### 기능 추가
+
+##### Floating IP
+* 플로팅 IP 삭제 보호 기능이 추가되었습니다.
+
+##### Load Balancer
+* 로드 밸런서 삭제 보호 기능이 추가되었습니다.
+* Public API에 L7 로드 밸런싱 관련 API가 추가되었습니다. [로드 밸런서 API 가이드](https://docs.gov-nhncloud.com/ko/Network/Load%20Balancer/ko/public-api-gov/)를 참고해 주세요.
+
+
 ### 2023. 11. 30.
 
 #### 기능 추가
