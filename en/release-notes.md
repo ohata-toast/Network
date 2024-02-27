@@ -3,10 +3,6 @@
 
 #### Added Features
 
-##### Private DNS
-
--  Private DNS is also available in the Korea (Gwangju) region.
-
 ##### Floating IP
 * Added the feature to protect floating IPs from deletion.
 
