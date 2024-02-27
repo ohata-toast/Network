@@ -11,9 +11,6 @@
 * ロードバランサー削除保護機能が追加されました。
 * Public APIにL7ロードバランシング関連APIが追加されました。 [ロードバランサーAPIガイド](https://docs.nhncloud.com/ja/Network/Load%20Balancer/ja/public-api/)を参照してください。
 
-#### Transit Hub
-* Public APIが追加されました。 [Transit Hub APIガイド](https://docs.nhncloud.com/ja/Network/Transit%20Hub/ja/public-api/)を参照してください。
-
 
 #### 機能改善/変更
 
