@@ -1,13 +1,13 @@
 ## Network > 릴리스 노트
 
-### 2024.03.26
+### 2024.03.26.
 
 #### 기능 개선
 
 ##### Transit Hub
 * Public API에 Transit Hub 관련 API가 추가되었습니다. [Transit Hub API 가이드](https://docs.alpha-nhncloud.com/ko/Network/Transit%20Hub/ko/public-api/)를 참고해 주세요.
 
-### 2024.03.12
+### 2024.03.12.
 
 #### 기능 개선
 
