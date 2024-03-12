@@ -1,13 +1,13 @@
 ## Network > 릴리스 노트
 
-### 2024.03.26.
+### 2024. 03. 26.
 
 #### 기능 개선
 
 ##### Transit Hub
 * Public API에 Transit Hub 관련 API가 추가되었습니다. [Transit Hub API 가이드](https://docs.alpha-nhncloud.com/ko/Network/Transit%20Hub/ko/public-api/)를 참고해 주세요.
 
-### 2024.03.12.
+### 2024. 03. 12.
 
 #### 기능 개선
 
@@ -32,7 +32,7 @@
 - 레코드 세트에 설명 필드가 추가되었습니다.
 
 ##### Transit Hub
-* 라우팅 룰 패킷 처리 방식에 패킷을 소멸시키는 BLACKHOLE이 추가 되었습니다. 
+* 라우팅 룰 패킷 처리 방식에 패킷을 소멸시키는 BLACKHOLE이 추가되었습니다. 
 
 ### 2023. 11. 28.
 
