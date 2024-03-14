@@ -1,5 +1,12 @@
 ## Network > Release Notes
 
+### March 26, 2024
+
+#### Added Features
+
+##### Transit Hub
+* Added Transit Hub-related APIs to Public APIs. See [Transit Hub API Guide](https://docs.alpha-nhncloud.com/ko/Network/Transit%20Hub/ko/public-api/).
+
 ### March 12, 2024
 
 #### Feature Updates
@@ -18,12 +25,14 @@
 * Added the feature to protect load balancer from deletion.
 * Added L7 Load Balancing-related API to Public API. See [Load Balancer API Guide](https://docs.nhncloud.com/en/Network/Load%20Balancer/en/public-api/).
 
-
 #### Feature Updates
 
 ##### Private DNS
 
 - Added the description field to the record set.
+
+##### Transit Hub
+* Added BLACKHOLE, which destroys packets, to the routing rule packet processing method.
 
 ### November 28, 2023
 
