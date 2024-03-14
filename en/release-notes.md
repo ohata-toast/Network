@@ -5,7 +5,7 @@
 #### Added Features
 
 ##### Transit Hub
-* Added Transit Hub-related APIs to Public APIs. See [Transit Hub API Guide](https://docs.alpha-nhncloud.com/ko/Network/Transit%20Hub/ko/public-api/).
+* Added Transit Hub-related APIs to Public APIs. See [Transit Hub API Guide](https://docs.alpha-nhncloud.com/en/Network/Transit%20Hub/en/public-api/).
 
 ### March 12, 2024
 
