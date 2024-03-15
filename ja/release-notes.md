@@ -1,5 +1,12 @@
 ## Network > リリースノート
 
+### 2024. 03. 26.
+
+#### 機能改善
+
+##### Transit Hub
+* Public APIにTransit Hub関連APIが追加されました。[Transit Hub APIガイド](https://docs.alpha-nhncloud.com/ko/Network/Transit%20Hub/ko/public-api/)を参照してください。
+
 ### 2024.03.12
 
 #### 機能改善
@@ -18,12 +25,14 @@
 * ロードバランサー削除保護機能が追加されました。
 * Public APIにL7ロードバランシング関連APIが追加されました。 [ロードバランサーAPIガイド](https://docs.nhncloud.com/ja/Network/Load%20Balancer/ja/public-api/)を参照してください。
 
-
 #### 機能改善/変更
 
 ##### Private DNS
 
 - レコードセットに説明フィールドが追加されました。
+
+##### Transit Hub
+* ルーティングルールのパケット処理方法にパケットを消滅させるBLACKHOLEが追加されました。
 
 ### 2023. 11. 28.
 
