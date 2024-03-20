@@ -7,7 +7,7 @@
 ##### Transit Hub
 * Public APIにTransit Hub関連APIが追加されました。[Transit Hub APIガイド](/Network/Transit%20Hub/ko/public-api/)を参照してください。
 
-### 2024.03.12
+### 2024. 03. 12.
 
 #### 機能改善
 
