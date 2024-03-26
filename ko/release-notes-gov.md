@@ -1,6 +1,6 @@
 ## Network > 릴리스 노트
 
-### 2024.03.12
+### 2024. 03. 12.
 
 #### 기능 개선
 
@@ -18,6 +18,10 @@
 * 로드 밸런서 삭제 보호 기능이 추가되었습니다.
 * Public API에 L7 로드 밸런싱 관련 API가 추가되었습니다. [로드 밸런서 API 가이드](https://docs.gov-nhncloud.com/ko/Network/Load%20Balancer/ko/public-api-gov/)를 참고해 주세요.
 
+#### 기능 개선
+
+##### Transit Hub
+* 라우팅 룰 패킷 처리 방식에 패킷을 소멸시키는 BLACKHOLE이 추가되었습니다. 
 
 ### 2023. 11. 30.
 
