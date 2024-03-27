@@ -4,6 +4,7 @@
 
 #### 기능 개선
 
+##### DNS Plus
 * SPF 레코드 세트 타입 지원이 중단되었습니다. TXT 레코드 세트 타입으로 대신 사용할 수 있습니다.
     * 상세 내용은 [[RFC 7208#section-14.1]](https://datatracker.ietf.org/doc/html/rfc7208#section-14.1)에서 확인할 수 있습니다.
 
