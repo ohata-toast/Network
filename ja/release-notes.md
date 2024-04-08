@@ -11,6 +11,7 @@
 
 #### 機能改善
 
+##### DNS Plus
 * SPF レコードセットタイプのサポートは終了しました。代わりにTXTレコードセットタイプを使用できます。
     * 詳細は[[RFC 7208#section-14.1]](https://datatracker.ietf.org/doc/html/rfc7208#section-14.1)で確認できます。
 
