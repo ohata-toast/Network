@@ -1,5 +1,12 @@
 ## Network > Release Notes
 
+### May 28, 2024
+
+#### Added Features
+
+##### Network ACL
+* Added the Network ACL feature to the Korea (Pangyo) region.
+
 ### March 26, 2024
 
 #### Added Features
