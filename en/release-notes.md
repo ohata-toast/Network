@@ -7,9 +7,6 @@
 ##### Network ACL
 * Added the Network ACL feature to the Korea (Pangyo) region.
 
-##### Service Gateway
-* Added Service Gateway-related APIs to Public APIs. See [Service Gateway API Guide](/Network/Service%20Gateway/en/public-api/).
-
 ### March 26, 2024
 
 #### Added Features
