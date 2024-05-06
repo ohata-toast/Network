@@ -7,14 +7,12 @@
 ##### Network ACL
 * 한국(판교) 리전에 Network ACL 기능이 추가되었습니다.
 
-#### 기능 개선
-
 ##### Service Gateway
 * Public API에 Service Gateway 관련 API가 추가되었습니다. [Service Gateway API 가이드](/Network/Service%20Gateway/ko/public-api/)를 참고해 주세요.
 
 ### 2024. 03. 26.
 
-#### 기능 개선
+#### 기능 추가
 
 ##### Transit Hub
 * Public API에 Transit Hub 관련 API가 추가되었습니다. [Transit Hub API 가이드](/Network/Transit%20Hub/ko/public-api/)를 참고해 주세요.
