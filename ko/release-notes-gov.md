@@ -1,5 +1,15 @@
 ## Network > 릴리스 노트
 
+### 2024. 06. 04.
+
+#### 기능 추가
+
+##### Transit Hub
+* Public API에 Transit Hub 관련 API가 추가되었습니다. [Transit Hub API 가이드](/Network/Transit%20Hub/ko/public-api/)를 참고해 주세요.
+
+##### Service Gateway
+* Public API에 Service Gateway 관련 API가 추가되었습니다. [Service Gateway API 가이드](/Network/Service%20Gateway/ko/public-api/)를 참고해 주세요.
+
 ### 2024. 03. 12.
 
 #### 기능 개선
