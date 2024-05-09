@@ -4,6 +4,9 @@
 
 #### 기능 추가
 
+#### Load Balancer
+* L7 로드밸런싱 기능이 추가되었습니다. [로드밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide/)를 참고해 주세요.
+
 ##### Transit Hub
 * Public API에 Transit Hub 관련 API가 추가되었습니다. [Transit Hub API 가이드](/Network/Transit%20Hub/ko/public-api/)를 참고해 주세요.
 
