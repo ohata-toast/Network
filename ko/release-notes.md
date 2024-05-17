@@ -4,13 +4,27 @@
 
 #### 기능 추가
 
+#### Load Balancer
+* L7 로드 밸런싱 기능이 추가되었습니다. [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide/)를 참고해 주세요.
+
+#### VPN Gateway
+* 피어 게이트웨이 장비에 Cisco - Firepower 1000 Series가 추가되었습니다.
+
 ##### Network ACL
 * 한국(판교) 리전에 Network ACL 기능이 추가되었습니다.
+* Network ACL이 CloudTrail에 연동되었습니다.
 
+##### Service Gateway
+* Public API에 Service Gateway 관련 API가 추가되었습니다. [Service Gateway API 가이드](/Network/Service%20Gateway/ko/public-api/)를 참고해 주세요.
+
+#### 기능 개선
+
+##### Service Gateway
+* 기본 정보 탭에 API 엔드포인트 도메인 항목이 추가되었습니다.
 
 ### 2024. 03. 26.
 
-#### 기능 개선
+#### 기능 추가
 
 ##### Transit Hub
 * Public API에 Transit Hub 관련 API가 추가되었습니다. [Transit Hub API 가이드](/Network/Transit%20Hub/ko/public-api/)를 참고해 주세요.
