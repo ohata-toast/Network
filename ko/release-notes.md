@@ -5,10 +5,10 @@
 #### 기능 추가
 
 #### Load Balancer
-* L7 로드밸런싱 기능이 추가되었습니다. [로드밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide/)를 참고해 주세요.
+* L7 로드 밸런싱 기능이 추가되었습니다. [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide/)를 참고해 주세요.
 
 #### VPN Gateway
-* 피어 게이트웨이 장비에 "Cisco - Firepower 1000 Series"가 추가되었습니다.
+* 피어 게이트웨이 장비에 Cisco - Firepower 1000 Series가 추가되었습니다.
 
 ##### Network ACL
 * 한국(판교) 리전에 Network ACL 기능이 추가되었습니다.
