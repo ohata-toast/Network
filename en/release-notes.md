@@ -5,7 +5,7 @@
 #### Added Features
 
 #### Load Balancer
-* Added the L7 load balancing feature. See [Load Balancer User Guide](/Network/Load%20Balancer/ko/console-guide/).
+* Added the L7 load balancing feature. See [Load Balancer User Guide](/Network/Load%20Balancer/en/console-guide/).
 
 #### VPN Gateway
 * Added Cisco - Firepower 1000 Series to the peer gateway equipment.
