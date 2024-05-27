@@ -5,7 +5,7 @@
 #### 機能追加
 
 #### Load Balancer
-* L7ロードバランシング機能が追加されました。 [ロードバランサーユーザーガイド](/Network/Load%20Balancer/ko/console-guide/)を参照してください。
+* L7ロードバランシング機能が追加されました。 [ロードバランサーユーザーガイド](/Network/Load%20Balancer/ja/console-guide/)を参照してください。
 
 #### VPN Gateway
 * ピアゲートウェイ機器にCisco - Firepower 1000 Seriesが追加されました。
@@ -15,7 +15,7 @@
 * Network ACLがCloudTrailに連動しました。
 
 ##### Service Gateway
-* Public APIにService Gateway関連APIが追加されました。 [Service Gateway APIガイド](/Network/Service%20Gateway/ko/public-api/)を参照してください。
+* Public APIにService Gateway関連APIが追加されました。 [Service Gateway APIガイド](/Network/Service%20Gateway/ja/public-api/)を参照してください。
 
 #### 機能改善
 
@@ -27,7 +27,7 @@
 #### 機能追加
 
 ##### Transit Hub
-* Public APIにTransit Hub関連APIが追加されました。[Transit Hub APIガイド](/Network/Transit%20Hub/ko/public-api/)を参照してください。
+* Public APIにTransit Hub関連APIが追加されました。[Transit Hub APIガイド](/Network/Transit%20Hub/ja/public-api/)を参照してください。
 
 ### 2024. 03. 12.
 
