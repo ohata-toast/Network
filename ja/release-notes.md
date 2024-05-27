@@ -17,6 +17,12 @@
 ##### Service Gateway
 * Public APIにService Gateway関連APIが追加されました。 [Service Gateway APIガイド](/Network/Service%20Gateway/ja/public-api/)を参照してください。
 
+##### DNS Plus
+* GSLBヘルスチェックでヘルスチェックリクエストのヘッダ、ヘルスチェック周期、最大レスポンス待機時間、最大再試行回数設定機能が追加されました。
+
+
+### 2024. 03. 26.
+
 #### 機能改善
 
 ##### Service Gateway

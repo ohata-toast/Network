@@ -18,7 +18,7 @@
 * Added Service Gateway-related APIs to the Public APIs. See [Service Gateway API Guide](/Network/Service%20Gateway/en/public-api/).
 
 ##### DNS Plus
-* Added the feature to set the header for health check requests, health check cycle, maximum response latency, and maximum number of retries in GSLB health checks.
+* Added the feature to set the header for health check requests, health check interval, maximum response latency (timeout), and maximum number of retries in GSLB health checks.
 
 #### Feature Updates
 
