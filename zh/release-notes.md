@@ -1,11 +1,36 @@
 ## Network > Release Notes
 
+### May 28, 2024
+
+#### Added Features
+
+#### Load Balancer
+* Added the L7 load balancing feature. See [Load Balancer User Guide](/Network/Load%20Balancer/zh/console-guide/).
+
+#### VPN Gateway
+* Added Cisco - Firepower 1000 Series to the peer gateway equipment.
+
+##### Network ACL
+* Added the Network ACL feature to the Korea (Pangyo) region.
+* Integrated Network ACL with CloudTrail.
+
+##### Service Gateway
+* Added Service Gateway-related APIs to the Public APIs. See [Service Gateway API Guide](/Network/Service%20Gateway/zh/public-api/).
+
+##### DNS Plus
+* Added the feature to set the header for health check requests, health check interval, maximum response latency (timeout), and maximum number of retries in GSLB health checks.
+
+#### Feature Updates
+
+##### Service Gateway
+* Added the domain field for API endpoints on the basic information tab.
+
 ### March 26, 2024
 
 #### Added Features
 
 ##### Transit Hub
-* Added Transit Hub-related APIs to Public APIs. See [Transit Hub API Guide](/Network/Transit%20Hub/en/public-api/).
+* Added Transit Hub-related APIs to Public APIs. See [Transit Hub API Guide](/Network/Transit%20Hub/zh/public-api/).
 
 ### March 12, 2024
 

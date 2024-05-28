@@ -1,11 +1,39 @@
 ## Network > リリースノート
 
+### 2024. 05. 28.
+
+#### 機能追加
+
+#### Load Balancer
+* L7ロードバランシング機能が追加されました。 [ロードバランサーユーザーガイド](/Network/Load%20Balancer/ja/console-guide/)を参照してください。
+
+#### VPN Gateway
+* ピアゲートウェイ機器にCisco - Firepower 1000 Seriesが追加されました。
+
+##### Network ACL
+* 韓国(パンギョ)リージョンにNetwork ACL機能が追加されました。
+* Network ACLがCloudTrailに連動しました。
+
+##### Service Gateway
+* Public APIにService Gateway関連APIが追加されました。 [Service Gateway APIガイド](/Network/Service%20Gateway/ja/public-api/)を参照してください。
+
+##### DNS Plus
+* GSLBヘルスチェックでヘルスチェックリクエストのヘッダ、ヘルスチェック周期、最大レスポンス待機時間、最大再試行回数設定機能が追加されました。
+
+
 ### 2024. 03. 26.
 
 #### 機能改善
 
+##### Service Gateway
+* 基本情報タブにAPIエンドポイントドメイン項目が追加されました。
+
+### 2024. 03. 26.
+
+#### 機能追加
+
 ##### Transit Hub
-* Public APIにTransit Hub関連APIが追加されました。[Transit Hub APIガイド](/Network/Transit%20Hub/ko/public-api/)を参照してください。
+* Public APIにTransit Hub関連APIが追加されました。[Transit Hub APIガイド](/Network/Transit%20Hub/ja/public-api/)を参照してください。
 
 ### 2024. 03. 12.
 
