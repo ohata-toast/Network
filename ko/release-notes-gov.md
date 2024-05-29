@@ -5,7 +5,7 @@
 
 #### 기능 추가
 
-##### Network ACL, NAT Instance, Transit Hub, Colocation Gateway, NAT Gateway, Service Gateway, Traffic Mirroring, Private DNS, Direct Connect
+##### Network ACL, NAT Instance, Transit Hub, Colocation Gateway, NAT Gateway, Service Gateway, Traffic Mirroring, Private DNS
 * 한국(판교) 리전에 기능이 추가되었습니다.
 
 #### Load Balancer
