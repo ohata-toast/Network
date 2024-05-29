@@ -5,7 +5,7 @@
 #### Added Features
 
 #### Load Balancer
-* Added the L7 load balancing feature. See [Load Balancer User Guide](/Network/Load%20Balancer/ko/console-guide/).
+* Added the L7 load balancing feature. See [Load Balancer User Guide](/Network/Load%20Balancer/en/console-guide/).
 
 #### VPN Gateway
 * Added Cisco - Firepower 1000 Series to the peer gateway equipment.
@@ -15,7 +15,10 @@
 * Integrated Network ACL with CloudTrail.
 
 ##### Service Gateway
-* Added Service Gateway-related APIs to the Public APIs. See [Service Gateway API Guide](/Network/Service%20Gateway/ko/public-api/).
+* Added Service Gateway-related APIs to the Public APIs. See [Service Gateway API Guide](/Network/Service%20Gateway/en/public-api/).
+
+##### DNS Plus
+* Added the feature to set the header for health check requests, health check interval, maximum response latency (timeout), and maximum number of retries in GSLB health checks.
 
 #### Feature Updates
 

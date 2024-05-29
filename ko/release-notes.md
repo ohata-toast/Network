@@ -17,6 +17,9 @@
 ##### Service Gateway
 * Public API에 Service Gateway 관련 API가 추가되었습니다. [Service Gateway API 가이드](/Network/Service%20Gateway/ko/public-api/)를 참고해 주세요.
 
+##### DNS Plus
+* GSLB 헬스 체크에서 헬스 체크 요청의 헤더, 헬스 체크 주기, 최대 응답 대기 시간, 최대 재시도 횟수 설정 기능이 추가되었습니다.
+
 #### 기능 개선
 
 ##### Service Gateway
