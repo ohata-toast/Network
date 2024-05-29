@@ -1,5 +1,16 @@
 ## Network > 릴리스 노트
 
+
+### 2024. 06. 04.
+
+#### 기능 추가
+
+##### Network ACL, NAT Instance, Transit Hub, Colocation Gateway, NAT Gateway, Service Gateway, Traffic Mirroring, Private DNS, Direct Connect
+* 한국(판교) 리전에 기능이 추가되었습니다.
+
+#### Load Balancer
+* L7 로드 밸런싱 기능이 추가되었습니다. [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide/)를 참고해 주세요.
+
 ### 2024. 05. 28.
 
 #### 기능 추가 
