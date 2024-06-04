@@ -7,9 +7,6 @@
 #### Load Balancer
 * L7 로드 밸런싱 기능이 추가되었습니다. [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide/)를 참고해 주세요.
 
-##### Transit Hub
-* Public API에 Transit Hub 관련 API가 추가되었습니다. [Transit Hub API 가이드](/Network/Transit%20Hub/ko/public-api-ngsc/)를 참고해 주세요.
-
 ##### Service Gateway
 * Public API에 Service Gateway 관련 API가 추가되었습니다. [Service Gateway API 가이드](/Network/Service%20Gateway/ko/public-api-ngsc/)를 참고해 주세요.
 
