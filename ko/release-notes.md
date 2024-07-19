@@ -1,13 +1,37 @@
 ## Network > 릴리스 노트
 
+### 2024. 08. 27.
+
+#### 기능 추가
+
+##### Flow Log
+* Flow Log 신규 서비스가 추가되었습니다. 네트워크 인터페이스에서 송/수신되는 IP 트래픽 정보를 수집 및 저장할 수 있습니다.
+    * Flow Log는 한국(평촌) 리전과 한국(판교) 리전에서만 이용할 수 있습니다.
+
+##### Routing
+* Public API에 라우팅 테이블과 연관된 게이트웨이 정보 조회 API가 추가되었습니다. [VPC API 가이드](/Network/VPC/ko/public-api/)를 참고해 주세요.
+
+
+#### 기능 개선
+
+##### Load balancer
+* 멤버별로 포트 번호를 지정할 수 있습니다.
+
+##### Region Peering
+* 다른 프로젝트에서 생성된 VPC 연결을 할 수 있도록 기능이 추가 되었습니다.
+
+##### Transit Hub
+* 멀티캐스트 도메인을 다른 프로젝트에 공유 할 수 있도록 기능이 추가 되었습니다. 다른 프로젝트에서 생성된 VPC간에 멀티캐스트 통신을 할 수 있습니다.
+
+
 ### 2024. 05. 28.
 
 #### 기능 추가
 
-#### Load Balancer
+##### Load Balancer
 * L7 로드 밸런싱 기능이 추가되었습니다. [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide/)를 참고해 주세요.
 
-#### VPN Gateway
+##### VPN Gateway
 * 피어 게이트웨이 장비에 Cisco - Firepower 1000 Series가 추가되었습니다.
 
 ##### Network ACL
