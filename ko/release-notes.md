@@ -11,6 +11,9 @@
 ##### Routing
 * Public API에 라우팅 테이블과 연관된 게이트웨이 정보 조회 API가 추가되었습니다. [VPC API 가이드](/Network/VPC/ko/public-api/)를 참고해 주세요.
 
+##### VPN Gateway
+* dh group 19 지원이 추가되었습니다.
+
 
 #### 기능 개선
 
