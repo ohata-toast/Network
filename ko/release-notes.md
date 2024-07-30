@@ -9,22 +9,22 @@
     * Flow Log는 한국(평촌) 리전과 한국(판교) 리전에서만 이용할 수 있습니다.
 
 ##### Routing
-* Public API에 라우팅 테이블과 연관된 게이트웨이 정보 조회 API가 추가되었습니다. [VPC API 가이드](/Network/VPC/ko/public-api/)를 참고해 주세요.
+* Public API에 라우팅 테이블과 연관된 게이트웨이 정보 조회 API가 추가되었습니다. [VPC API 가이드](/Network/VPC/ko/public-api/)를 참고하세요.
 
 ##### VPN Gateway
-* dh group 19 지원이 추가되었습니다.
+* Diffie-Hellman groups 19를 지원합니다.
 
 
 #### 기능 개선
 
-##### Load balancer
+##### Load Balancer
 * 멤버별로 포트 번호를 지정할 수 있습니다.
 
 ##### Region Peering
-* 다른 프로젝트에서 생성된 VPC 연결을 할 수 있도록 기능이 추가 되었습니다.
+* 다른 프로젝트에서 생성된 VPC에 연결할 수 있도록 기능이 추가되었습니다.
 
 ##### Transit Hub
-* 멀티캐스트 도메인을 다른 프로젝트에 공유 할 수 있도록 기능이 추가 되었습니다. 다른 프로젝트에서 생성된 VPC간에 멀티캐스트 통신을 할 수 있습니다.
+* 멀티캐스트 도메인을 다른 프로젝트에 공유할 수 있도록 기능이 추가되었습니다. 다른 프로젝트에서 생성된 VPC 간에 멀티캐스트 통신을 할 수 있습니다.
 
 
 ### 2024. 05. 28.
@@ -32,7 +32,7 @@
 #### 기능 추가
 
 ##### Load Balancer
-* L7 로드 밸런싱 기능이 추가되었습니다. [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide/)를 참고해 주세요.
+* L7 로드 밸런싱 기능이 추가되었습니다. [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide/)를 참고하세요.
 
 ##### VPN Gateway
 * 피어 게이트웨이 장비에 Cisco - Firepower 1000 Series가 추가되었습니다.
@@ -42,7 +42,7 @@
 * Network ACL이 CloudTrail에 연동되었습니다.
 
 ##### Service Gateway
-* Public API에 Service Gateway 관련 API가 추가되었습니다. [Service Gateway API 가이드](/Network/Service%20Gateway/ko/public-api/)를 참고해 주세요.
+* Public API에 Service Gateway 관련 API가 추가되었습니다. [Service Gateway API 가이드](/Network/Service%20Gateway/ko/public-api/)를 참고하세요.
 
 ##### DNS Plus
 * GSLB 헬스 체크에서 헬스 체크 요청의 헤더, 헬스 체크 주기, 최대 응답 대기 시간, 최대 재시도 횟수 설정 기능이 추가되었습니다.
@@ -57,7 +57,7 @@
 #### 기능 추가
 
 ##### Transit Hub
-* Public API에 Transit Hub 관련 API가 추가되었습니다. [Transit Hub API 가이드](/Network/Transit%20Hub/ko/public-api/)를 참고해 주세요.
+* Public API에 Transit Hub 관련 API가 추가되었습니다. [Transit Hub API 가이드](/Network/Transit%20Hub/ko/public-api/)를 참고하세요.
 
 ### 2024. 03. 12.
 
@@ -76,7 +76,7 @@
 
 ##### Load Balancer
 * 로드 밸런서 삭제 보호 기능이 추가되었습니다.
-* Public API에 L7 로드 밸런싱 관련 API가 추가되었습니다. [로드 밸런서 API 가이드](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/public-api/)를 참고해 주세요.
+* Public API에 L7 로드 밸런싱 관련 API가 추가되었습니다. [로드 밸런서 API 가이드](https://docs.nhncloud.com/ko/Network/Load%20Balancer/ko/public-api/)를 참고하세요.
 
 #### 기능 개선/변경
 
@@ -119,7 +119,7 @@
 
 ##### VPC
 
-* Public API에 Routing API가 추가되었습니다. [VPC API 가이드](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/)를 참고해 주세요.
+* Public API에 Routing API가 추가되었습니다. [VPC API 가이드](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/)를 참고하세요.
 
 ##### Network ACL
 
@@ -148,7 +148,7 @@
 
 ##### VPC
 
-* Public API에 VPC 및 VPC Subnet API가 추가되었습니다. 자세한 사항은 [VPC API 사용자 가이드](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/)를 참고해 주세요. 
+* Public API에 VPC 및 VPC Subnet API가 추가되었습니다. 자세한 사항은 [VPC API 사용자 가이드](https://docs.nhncloud.com/ko/Network/VPC/ko/public-api/)를 참고하세요. 
 
 #### 기능 변경
 
@@ -271,7 +271,7 @@
 
 ##### Load Balancer
 
-* [한국 평촌 리전] 물리 로드밸런서를 온라인으로 생성할 수 있습니다. 기존 로드밸런서 대비 변경사항은 [로드밸런서가이드](https://docs.toast.com/ko/Network/Load%20Balancer/ko/console-guide/#_19)를 참고해 주세요.
+* [한국 평촌 리전] 물리 로드밸런서를 온라인으로 생성할 수 있습니다. 기존 로드밸런서 대비 변경사항은 [로드밸런서가이드](https://docs.toast.com/ko/Network/Load%20Balancer/ko/console-guide/#_19)를 참고하세요.
 
 
 ### 2021. 03. 23.
@@ -322,7 +322,7 @@
 
 ##### Load Balancer
 
-* Public API v2가 IP 접근 제어 기능을 지원합니다. 자세한 사항은 [로드밸런서API가이드](https://docs.toast.com/ko/Network/Load%20Balancer/ko/public-api/#ip-acl)를 참고해 주세요.
+* Public API v2가 IP 접근 제어 기능을 지원합니다. 자세한 사항은 [로드밸런서API가이드](https://docs.toast.com/ko/Network/Load%20Balancer/ko/public-api/#ip-acl)를 참고하세요.
 
 ### 2020. 06. 23.
 
@@ -402,7 +402,7 @@
 ##### Load Balancer
 
 * [한국/일본 리전] TERMINATED_HTTPS 로드밸런서에 클라이언트와 통신할 TLS 버전을 지정할 수 있습니다.
-    * 로드밸런서 TLS 버전 설정 기능에 대한 자세한 사항은 [사용자가이드](https://docs.toast.com/ko/Network/Load%20Balancer/ko/overview/#ssltls)를 참고해 주세요.
+    * 로드밸런서 TLS 버전 설정 기능에 대한 자세한 사항은 [사용자가이드](https://docs.toast.com/ko/Network/Load%20Balancer/ko/overview/#ssltls)를 참고하세요.
 
 ##### DNS Plus
 
