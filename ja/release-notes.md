@@ -12,7 +12,7 @@
 * Public APIにルーティングテーブルと関連付けられたゲートウェイ情報照会APIが追加されました。 [VPC APIガイド](/Network/VPC/ko/public-api/)を参照してください。
 
 ##### VPN Gateway
-* Diffie-Hellman groups 19をサポートします。
+* Diffie-Hellman groups 14,15,16,17,18,19,20,21,27,28をサポートします。
 
 
 #### 機能改善
