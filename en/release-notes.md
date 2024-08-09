@@ -1,5 +1,31 @@
 ## Network > Release Notes
 
+### Aug 27, 2024
+
+#### Added Features
+
+##### Flow Log
+* Added the Flow Log service. Flow Log allows you to collect and store information about IP traffic sent to and received from a network interface.
+    * Flow Log is only available in the Korea (Pyeongchon) region and Korea (Pangyo) region.
+
+##### Routing
+* Added API to get gateway information associated with routing tables to the Public API. See the [VPC API Guide](/Network/VPC/ko/public-api/).
+
+##### VPN Gateway
+* Added support for Diffie-Hellman groups 14,15,16,17,18,19,20,21,27,28.
+
+
+#### Feature Updates
+
+##### Load Balancer
+* You can specify a port number per member.
+
+##### Region Peering
+* Added the feature to attach to VPCs created in other projects.
+
+##### Transit Hub
+* Added the feature to share multicast domains to other projects. You can have multicast communication between VPCs created in different projects.
+
 ### May 28, 2024
 
 #### Added Features
