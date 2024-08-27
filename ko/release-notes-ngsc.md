@@ -1,11 +1,24 @@
 ## Network > 릴리스 노트
 
+### 2024. 09. 05.
+
+#### 기능 추가
+
+##### Routing
+* Public API에 라우팅 테이블과 연관된 게이트웨이 정보 조회 API가 추가되었습니다. [VPC API 가이드](/Network/VPC/ko/public-api-ngsc/)를 참고하세요.
+
+#### 기능 개선
+
+##### Load Balancer
+* 멤버별로 포트 번호를 지정할 수 있습니다.
+
+ 
 ### 2024. 06. 04.
 
 #### 기능 추가
 
 #### Load Balancer
-* L7 로드 밸런싱 기능이 추가되었습니다. [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide/)를 참고해 주세요.
+* L7 로드 밸런싱 기능이 추가되었습니다. [로드 밸런서 사용자 가이드](/Network/Load%20Balancer/ko/console-guide-ngsc/)를 참고해 주세요.
 
 ##### Service Gateway
 * Public API에 Service Gateway 관련 API가 추가되었습니다. [Service Gateway API 가이드](/Network/Service%20Gateway/ko/public-api-ngsc/)를 참고해 주세요.
@@ -45,5 +58,5 @@
 
 ##### VPC
 
-* Public API에 Routing API가 추가되었습니다. [VPC API 사용자 가이드](https://docs.gncloud.go.kr/ko/Network/VPC/ko/public-api-gov/)를 참고해 주세요.
+* Public API에 Routing API가 추가되었습니다. [VPC API 사용자 가이드](https://docs.gncloud.go.kr/ko/Network/VPC/ko/public-api-ngsc/)를 참고해 주세요.
 
