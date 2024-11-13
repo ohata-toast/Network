@@ -9,7 +9,7 @@
 
 ##### Flow Log
 * gzip 압축 기능이 추가되었습니다.
-* Flow Log가 지원하는 통계 제공 정보 항목중에서 사용자가 원하는 항목만 선택하여 기록을 남길 수 있습니다. 지원하는 통계 항목은 [Flowlog 개요](/Network/Flow%20Log/ko/overview/)를 참고하세요.
+* Flow Log가 지원하는 통계 제공 정보 항목 중에서 사용자가 원하는 항목만 선택하여 기록을 남길 수 있도록 개선되었습니다. 지원하는 통계 항목은 [Flowlog 개요](/Network/Flow%20Log/ko/overview/)를 참고하세요.
 
 ### 2024. 08. 27.
 
