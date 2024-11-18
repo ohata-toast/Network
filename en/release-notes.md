@@ -1,5 +1,12 @@
 ## Network > Release Notes
 
+### November 26, 2024
+
+#### Feature Updates
+
+##### Peering Gateway
+* Added the description field to peering. When you create or change a peering, you can enter a description for that peering, which appears in the peering basic information.
+
 ### Aug 27, 2024
 
 #### Added Features
