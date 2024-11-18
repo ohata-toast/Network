@@ -7,9 +7,10 @@
 ##### Peering Gateway
 * Added the description field to peering. When you create or change a peering, you can enter a description for that peering, which appears in the peering basic information.
 
-### Aug 27, 2024
+##### Flow Log
+* Added Gzip compression feature.
+* Improved to allow users to select only the statistical information items that they want to record from the ones supported by Flow Log. For the supported statistical items, see [Flowlog Overview](/Network/Flow%20Log/ko/overview/).
 
-#### Added Features
 
 ##### Flow Log
 * Added the Flow Log service. Flow Log allows you to collect and store information about IP traffic sent to and received from a network interface.
