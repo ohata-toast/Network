@@ -12,6 +12,7 @@
 
 ##### Flow Log
 * Transit Hub의 연결을 대상으로 Flow Log를 생성할 수 있도록 기능이 추가되었습니다.
+* Flowlog 수집 대상에 VPC 및 Subnet이 추가되었습니다.
 
 ### 2024. 11. 26.
 
